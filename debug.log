@@ -1,0 +1,2 @@
+[1119/162324.051:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: The specified information record length does not match the length required for the specified information class. (0xc0000004)
+[1119/162348.413:ERROR:process_info.cc(359)] UncheckedAllocate
