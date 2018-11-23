@@ -1,7 +1,41 @@
 @import'variables';
+/* ============ NavBar Components | Start ============= */
 button{
     background-color: $theme_white;
     border: 1px solid $theme_grey;
     height: 22px; 
 }
+/* ============ NavBar Components | End ============= */
 
+/* ============= Image background Components | Start ============= */
+.button {
+    height: 50px;
+    width: 140px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid $theme_grey;
+    z-index: -1;
+}
+#start_button {
+    background-color: $theme_pink;
+    border: 2px solid $theme_pink;
+    color: $theme_white;
+    border-radius: 2px;
+}
+#donate_button {
+    background-color: transparent;
+    color: $theme_white;
+    border: 2px solid $theme_white;
+    border-radius: 2px;
+}
+#positioning {
+    border: red 2px solid;
+    text-align: center;
+    width: 60%;
+    height: 40%;
+    margin: 15% 20%;
+    position: absolute;
+    color: white;
+    padding: 10px;
+}
+/* ============= Image background Components | End ============= */

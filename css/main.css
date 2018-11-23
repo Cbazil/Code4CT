@@ -2,22 +2,74 @@
 /* ========= In nav bar | End ========= */
 /* ====== WEBSITE THEME COLORs | Start ====== */
 /* ====== WEBSITE THEME COLORs  | End */
+/* ====== INDIVISUAL STYLING | Start ======= */
 .pink_color {
   color: #ee534f; }
 
+h1 {
+  font-size: 45px; }
+
+.description_p {
+  font-size: 18px;
+  margin-top: -26px; }
+
+/* ====== INDIVISUAL STYLING | End ======= */
+/* ============ NavBar Components | Start ============= */
 button {
   background-color: #f7f7f7;
   border: 1px solid #666666;
   height: 22px; }
 
+/* ============ NavBar Components | End ============= */
+/* ============= Image background Components | Start ============= */
+.button {
+  height: 50px;
+  width: 140px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #666666;
+  z-index: -1; }
+
+#start_button {
+  background-color: #ee534f;
+  border: 2px solid #ee534f;
+  color: #f7f7f7;
+  border-radius: 2px; }
+
+#donate_button {
+  background-color: transparent;
+  color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+  border-radius: 2px; }
+
+#positioning {
+  border: red 2px solid;
+  text-align: center;
+  width: 60%;
+  height: 40%;
+  margin: 15% 20%;
+  position: absolute;
+  color: white;
+  padding: 10px; }
+
+/* ============= Image background Components | End ============= */
 /* ============ Nav Bar position | Start ============*/
 /* ========= In nav bar | Start========= */
 /* ========= In nav bar | End ========= */
 /* ====== WEBSITE THEME COLORs | Start ====== */
 /* ====== WEBSITE THEME COLORs  | End */
+/* ====== INDIVISUAL STYLING | Start ======= */
 .pink_color {
   color: #ee534f; }
 
+h1 {
+  font-size: 45px; }
+
+.description_p {
+  font-size: 18px;
+  margin-top: -26px; }
+
+/* ====== INDIVISUAL STYLING | End ======= */
 ul {
   color: #666666; }
   ul li {
@@ -69,9 +121,18 @@ a {
 /* ========= In nav bar | End ========= */
 /* ====== WEBSITE THEME COLORs | Start ====== */
 /* ====== WEBSITE THEME COLORs  | End */
+/* ====== INDIVISUAL STYLING | Start ======= */
 .pink_color {
   color: #ee534f; }
 
+h1 {
+  font-size: 45px; }
+
+.description_p {
+  font-size: 18px;
+  margin-top: -26px; }
+
+/* ====== INDIVISUAL STYLING | End ======= */
 #bg_image {
   width: 100%;
   background: url(../imgs/bgimage.jpg);
@@ -79,5 +140,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
+
+body {
+  font-family: Poppins; }
 
 /*# sourceMappingURL=main.css.map */

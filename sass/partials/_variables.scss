@@ -9,6 +9,16 @@ $theme_grey: #666666;
 
 /* ====== WEBSITE THEME COLORs  | End */
 
+/* ====== INDIVISUAL STYLING | Start ======= */
+
 .pink_color {
-    color: #ee534f;
+    color: $theme_pink;
 }
+h1 {
+    font-size: 45px;
+}
+.description_p {
+    font-size: 18px;
+    margin-top: -26px;
+}
+/* ====== INDIVISUAL STYLING | End ======= */
