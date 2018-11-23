@@ -83,7 +83,8 @@ Method, Prototype and Constructive
 - Created image folder and placed one in.
 - Added background image, background-size: cover; 
 - Added components to bg-cover like website/theme/layout (h1, p and 2 buttons).
-
+- Sized the buttons(Class), Positioned them then added colors.
+- Need to increase size of button on hover and adding Arrow. (Function or mixin).
 ---
 
 ## All Rights Reversed 2018, Made by Cbazil
