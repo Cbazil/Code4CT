@@ -85,6 +85,7 @@ Method, Prototype and Constructive
 - Added components to bg-cover like website/theme/layout (h1, p and 2 buttons).
 - Sized the buttons(Class), Positioned them then added colors.
 - Need to increase size of button on hover and adding Arrow. (Function or mixin).
+- Commented out RED Border(indicator) for the time being(Future use).
 ---
 
 ## All Rights Reversed 2018, Made by Cbazil
