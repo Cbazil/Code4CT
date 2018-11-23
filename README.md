@@ -76,5 +76,12 @@ Method, Prototype and Constructive
 - Must have smooth scroll property on it(Slower effect).
 
 ---
+## Change log
+- Made Navbar, Positioned it added colors.
+- Imported fa fa image(Search).
+- Implemented sass partials, and devided work into the correct styles files.
+- Created image folder and placed one in.
+
+---
 
 ## All Rights Reversed 2018, Made by Cbazil
