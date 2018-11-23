@@ -81,6 +81,8 @@ Method, Prototype and Constructive
 - Imported fa fa image(Search).
 - Implemented sass partials, and devided work into the correct styles files.
 - Created image folder and placed one in.
+- Added background image, background-size: cover; 
+- Added components to bg-cover like website/theme/layout (h1, p and 2 buttons).
 
 ---
 
