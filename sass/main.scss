@@ -5,4 +5,13 @@
 @import'partials/mixins';
 @import'partials/variables';
 
+#bg_image {
+    width: 100%;
+    background: url(../imgs/bgimage.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // position: inherit;
 
+}
