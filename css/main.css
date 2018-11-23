@@ -43,7 +43,6 @@ button {
   border-radius: 2px; }
 
 #positioning {
-  border: red 2px solid;
   text-align: center;
   width: 60%;
   height: 40%;
@@ -136,7 +135,7 @@ h1 {
 #bg_image {
   width: 100%;
   background: url(../imgs/bgimage.jpg);
-  height: 650px;
+  height: 640px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
