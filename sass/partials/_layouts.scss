@@ -62,7 +62,7 @@ a {
 
 /* ============ Who we are grid | Start ========== */
 #grid_sec {
-    border: red 2px solid;
+    // border: red 2px solid;
     display: grid;
     grid-template-columns: 1fr 1fr;
     // text-align: center;
@@ -70,8 +70,9 @@ a {
     padding: 20px;
 } 
 .grid_item{
-    border: red 2px solid;
+    // border: red 2px solid;
     margin: 20px;
+    // width: 100%;
 }
 #nested_grid {
     // border: blue 2px solid;
@@ -84,7 +85,7 @@ a {
 
 }
 .nested_grid_item {
-    border: blue 2px solid;
+    // border: blue 2px solid;
     width: 240px;
     height: 200px;  
     // margin: 10px;
@@ -92,3 +93,30 @@ a {
 
 /* ============ Who we are grid | End ========== */
 
+
+
+/* ========== What is learn't section | Start ========== */
+#learn_to {
+    background-color: black;     
+    width: 100%;
+}
+#learn_to_align {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 300px;
+    text-align: center;
+    color: white;
+    margin-left: 140px;
+    margin-right: 140px;   
+}
+.learn_to_fas {
+    font-size: 3em;
+    color: $theme_pink;
+    // padding-left: 30px;
+    // padding-right: 30px;
+}
+.flex_item {
+    padding: 0px 50px;
+    margin-top: 30px;
+}
+/* ========== What is learn't section | End ========== */

@@ -20,9 +20,13 @@ h1 {
 .description_p {
     font-size: 18px;
     margin-top: -26px;
+    color: white;
 }
 /* ====== INDIVISUAL STYLING | End ======= */
 img {
     width: 100%;
     height: 100%;
+}
+p {
+    color: $theme_grey;
 }

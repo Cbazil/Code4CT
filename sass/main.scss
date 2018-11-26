@@ -13,6 +13,8 @@
     background-size: cover;
     background-position: center;
     // position: inherit;
+    background-blend-mode: multiply;
+    background-color: grey;
 }
 body {
     font-family: Poppins;
