@@ -53,3 +53,14 @@ button{
     padding: 10px;
 }
 /* ============= Image background Components | End ============= */
+
+
+// =========== READ MORE BUTTON =========== 
+
+.readmore_button {
+    width: 120px;
+    height: 40px;
+    color: $theme_grey;
+    padding: 10px;
+    border: $theme_grey 1px solid;
+}

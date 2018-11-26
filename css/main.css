@@ -14,6 +14,10 @@ h1 {
   margin-top: -26px; }
 
 /* ====== INDIVISUAL STYLING | End ======= */
+img {
+  width: 100%;
+  height: 100%; }
+
 /* ============ NavBar Components | Start ============= */
 button {
   background-color: #f7f7f7;
@@ -61,6 +65,13 @@ button {
   padding: 10px; }
 
 /* ============= Image background Components | End ============= */
+.readmore_button {
+  width: 120px;
+  height: 40px;
+  color: #666666;
+  padding: 10px;
+  border: #666666 1px solid; }
+
 /* ============ Nav Bar position | Start ============*/
 /* ========= In nav bar | Start========= */
 /* ========= In nav bar | End ========= */
@@ -78,6 +89,10 @@ h1 {
   margin-top: -26px; }
 
 /* ====== INDIVISUAL STYLING | End ======= */
+img {
+  width: 100%;
+  height: 100%; }
+
 ul {
   color: #666666; }
   ul li {
@@ -125,6 +140,31 @@ a {
   margin-right: 15%; }
 
 /*===========  Search bar positioning | End  ============ */
+/* ============ Who we are grid | Start ========== */
+#grid_sec {
+  border: red 2px solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 150px;
+  padding: 20px; }
+
+.grid_item {
+  border: red 2px solid;
+  margin: 20px; }
+
+#nested_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: .5em;
+  margin: 20px; }
+
+.nested_grid_item {
+  border: blue 2px solid;
+  width: 240px;
+  height: 200px; }
+
+/* ============ Who we are grid | End ========== */
 /* ========= In nav bar | Start========= */
 /* ========= In nav bar | End ========= */
 /* ====== WEBSITE THEME COLORs | Start ====== */
@@ -141,6 +181,10 @@ h1 {
   margin-top: -26px; }
 
 /* ====== INDIVISUAL STYLING | End ======= */
+img {
+  width: 100%;
+  height: 100%; }
+
 #bg_image {
   width: 100%;
   background: url(../imgs/bgimage.jpg);

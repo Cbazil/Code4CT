@@ -59,3 +59,36 @@ a {
     margin-right: 15%;
 }
 /*===========  Search bar positioning | End  ============ */
+
+/* ============ Who we are grid | Start ========== */
+#grid_sec {
+    border: red 2px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // text-align: center;
+    margin: 20px 150px;
+    padding: 20px;
+} 
+.grid_item{
+    border: red 2px solid;
+    margin: 20px;
+}
+#nested_grid {
+    // border: blue 2px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: .5em;
+    margin: 20px;
+    // padding: 30px;
+
+}
+.nested_grid_item {
+    border: blue 2px solid;
+    width: 240px;
+    height: 200px;  
+    // margin: 10px;
+}
+
+/* ============ Who we are grid | End ========== */
+
