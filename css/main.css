@@ -22,6 +22,7 @@ button {
 
 /* ============ NavBar Components | End ============= */
 /* ============= Image background Components | Start ============= */
+/* ======= Buttons Expands on hover | Start ======= */
 .button {
   height: 50px;
   width: 140px;
@@ -37,6 +38,7 @@ button {
   .button:hover .fa-angle-right {
     display: inline-block; }
 
+/* ======= Buttons Expands on hover | End ======= */
 #start_button {
   background-color: #ee534f;
   border: 2px solid #ee534f;
