@@ -87,6 +87,7 @@ Method, Prototype and Constructive
 - Need to increase size of button on hover and adding Arrow. (Function or mixin).
 - Commented out RED Border(indicator) for the time being(Future use).
 - (2018/11/26) Added the botton expanding effect, But its not really a function or mixin(Need to work on it). Also commented out unnessary comments.
+- Created Grid for the Who We Are section, Then made a nested grid for the images(Everything is wrapped by borders(Indicator)).
 ---
 
 ## All Rights Reversed 2018, Made by Cbazil
