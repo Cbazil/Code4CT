@@ -86,6 +86,7 @@ Method, Prototype and Constructive
 - Sized the buttons(Class), Positioned them then added colors.
 - Need to increase size of button on hover and adding Arrow. (Function or mixin).
 - Commented out RED Border(indicator) for the time being(Future use).
+- (2018/11/26) Added the botton expanding effect, But its not really a function or mixin(Need to work on it). Also commented out unnessary comments.
 ---
 
 ## All Rights Reversed 2018, Made by Cbazil
