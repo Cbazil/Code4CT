@@ -29,6 +29,13 @@ button {
   margin: 5px;
   border: 1px solid #666666;
   z-index: -1; }
+  .button .fa-angle-right {
+    display: none; }
+
+.button:hover {
+  width: 154px; }
+  .button:hover .fa-angle-right {
+    display: inline-block; }
 
 #start_button {
   background-color: #ee534f;

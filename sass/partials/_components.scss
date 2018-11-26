@@ -15,7 +15,18 @@ button{
     margin: 5px;
     border: 1px solid $theme_grey;
     z-index: -1;
+    .fa-angle-right {
+    display: none;
+    }
 }
+
+.button:hover{
+    width: 154px;
+    .fa-angle-right {
+        display: inline-block;
+        }
+}
+
 #start_button {
     background-color: $theme_pink;
     border: 2px solid $theme_pink;
