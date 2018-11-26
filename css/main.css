@@ -69,6 +69,7 @@ button {
   padding: 10px; }
 
 /* ============= Image background Components | End ============= */
+/* =========== READ MORE BUTTON | Start =========== */
 .readmore_button {
   width: 120px;
   height: 40px;
@@ -76,6 +77,7 @@ button {
   padding: 10px;
   border: #666666 1px solid; }
 
+/* =========== READ MORE BUTTON | End =========== */
 /* ============ Nav Bar position | Start ============*/
 /* ========= In nav bar | Start========= */
 /* ========= In nav bar | End ========= */
@@ -188,6 +190,7 @@ a {
   font-size: 3em;
   color: #ee534f; }
 
+/* Used grid instead of flex for better handling */
 .flex_item {
   padding: 0px 50px;
   margin-top: 30px; }
