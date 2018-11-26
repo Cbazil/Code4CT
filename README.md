@@ -90,6 +90,7 @@ Method, Prototype and Constructive
 - Created Grid for the Who We Are section, Then made a nested grid for the images(Everything is wrapped by borders(Indicator)).
 - Worked on "Learn to" section, and add background color of black to the background image. Like a merge (Blend mode: Multiple).
 - Postioned all elements in the learn to section and resized font icons.
+- Added margin and padding to info section.
 ---
 
 ## All Rights Reversed 2018, Made by Cbazil
