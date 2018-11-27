@@ -96,6 +96,8 @@ Method, Prototype and Constructive
 - Created Course layout, Used a nested grid format/method.
 - Structure the meet team section Grid.
 - Imported the poppins google font and placed it as body.
+- Positioned and resized font of nav section due to font family change.
+- Increased grid gap size (First nested one).
 ---
 
 ## All Rights Reversed 2018, Made by Cbazil
