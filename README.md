@@ -1,4 +1,4 @@
-# Project 3 Code4CT project 14 November 2018 -  (Duration 2 month)
+# Project 3 Code4CT project 14 November 2018 -  (Duration 2 months)
 
 ---
 
@@ -100,4 +100,4 @@ Method, Prototype and Constructive
 - Increased grid gap size (First nested one).
 ---
 
-## All Rights Reversed 2018, Made by Cbazil
+## &copy; All Rights Reversed 2018, Made by Cbazil
