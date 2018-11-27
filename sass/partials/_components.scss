@@ -4,6 +4,7 @@ button{
     background-color: $theme_white;
     border: 1px solid $theme_grey;
     height: 22px; 
+    cursor: pointer;
 }
 /* ============ NavBar Components | End ============= */
 
@@ -16,6 +17,8 @@ button{
     margin: 5px;
     border: 1px solid $theme_grey;
     z-index: -1;
+    cursor: pointer;
+
     .fa-angle-right {
     display: none;
     }
@@ -65,5 +68,6 @@ button{
     padding: 10px;
     border: $theme_grey 1px solid;
     margin-top: 35px;
+    cursor:pointer;
 }
 /* =========== READ MORE BUTTON | End =========== */

@@ -99,6 +99,7 @@ Method, Prototype and Constructive
 - Positioned and resized font of nav section due to font family change.
 - Increased grid gap size (First nested one).
 - Created/set the me team section grid.
+- Added pointer cursor for buttons
 ---
 
 ## &copy; All Rights Reversed 2018, Made by Cbazil

@@ -29,7 +29,8 @@ h3 {
 button {
   background-color: #f7f7f7;
   border: 1px solid #666666;
-  height: 22px; }
+  height: 22px;
+  cursor: pointer; }
 
 /* ============ NavBar Components | End ============= */
 /* ============= Image background Components | Start ============= */
@@ -40,7 +41,8 @@ button {
   padding: 5px;
   margin: 5px;
   border: 1px solid #666666;
-  z-index: -1; }
+  z-index: -1;
+  cursor: pointer; }
   .button .fa-angle-right {
     display: none; }
 
@@ -79,7 +81,8 @@ button {
   color: #666666;
   padding: 10px;
   border: #666666 1px solid;
-  margin-top: 35px; }
+  margin-top: 35px;
+  cursor: pointer; }
 
 /* =========== READ MORE BUTTON | End =========== */
 /* ============ Nav Bar position | Start ============*/
