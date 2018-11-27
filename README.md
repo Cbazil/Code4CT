@@ -98,6 +98,7 @@ Method, Prototype and Constructive
 - Imported the poppins google font and placed it as body.
 - Positioned and resized font of nav section due to font family change.
 - Increased grid gap size (First nested one).
+- Created/set the me team section grid.
 ---
 
 ## &copy; All Rights Reversed 2018, Made by Cbazil
