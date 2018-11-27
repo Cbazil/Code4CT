@@ -91,6 +91,7 @@ Method, Prototype and Constructive
 - Worked on "Learn to" section, and add background color of black to the background image. Like a merge (Blend mode: Multiple).
 - Postioned all elements in the learn to section and resized font icons.
 - Added margin and padding to info section.
+- Changed button increase at hover effect from 10% t0 5 like Nate(Lecturer) instructured.
 ---
 
 ## All Rights Reversed 2018, Made by Cbazil
