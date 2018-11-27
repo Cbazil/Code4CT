@@ -35,7 +35,8 @@ The website need to be in such a way that makes users, especially females users 
     SASS - Styling 
     JS - Functionality
 
-1. Code4CT - Repo name Code4CT - [x] + Name title
+1. Code4CT - Repo name Code4CT 
+- [x] + Name title
 2. Good Folder Structure
 3. Good Indentation
 
