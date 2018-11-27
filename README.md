@@ -95,6 +95,7 @@ Method, Prototype and Constructive
 - Changed button increase at hover effect from 10% t0 5 like Nate(Lecturer) instructured.
 - Created Course layout, Used a nested grid format/method.
 - Structure the meet team section Grid.
+- Imported the poppins google font and placed it as body.
 ---
 
 ## All Rights Reversed 2018, Made by Cbazil
