@@ -103,7 +103,7 @@ a {
 #learn_to_align {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 300px;
+    height: 330px;
     text-align: center;
     color: white;
     margin-left: 140px;
@@ -147,11 +147,46 @@ a {
    
 }
 .course_nested_item {
-    background-color: gray; 
+    background-color: gray; // Temporarily
     height: 200px;
     width: 100%;
 }
 .course_grid_item2 {
-    background-color: gray;
+    background-color: gray; //Temporarily
 }
 /* ========== Courses Grid Section Also Nested| End =========== */
+
+
+
+/* ========== Meet the team Grid | Start ========== */
+#team_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    height: 440px;
+}
+
+
+#team_nest1,
+#team_nest2,
+#team_nest3,
+#team_nest4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px; // Change when done and delete comment
+    width: 100%;
+    height: 220px;
+    // background-color: gray;
+}
+.team_nest1_item1,
+.team_nest2_item1,
+.team_nest3_item1,
+.team_nest4_item1 {
+    width: 100%;
+    height: 200px;
+    background-color: gray; //Temporarily
+}
+
+/* ========== Meet the team Grid | Start ========== */
+
