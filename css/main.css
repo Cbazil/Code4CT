@@ -22,6 +22,9 @@ img {
 p {
   color: #666666; }
 
+h3 {
+  font-family: Poppins; }
+
 /* ============ NavBar Components | Start ============= */
 button {
   background-color: #f7f7f7;
@@ -102,6 +105,9 @@ img {
 
 p {
   color: #666666; }
+
+h3 {
+  font-family: Poppins; }
 
 ul {
   color: #666666; }
@@ -248,6 +254,9 @@ img {
 
 p {
   color: #666666; }
+
+h3 {
+  font-family: Poppins; }
 
 #bg_image {
   width: 100%;
