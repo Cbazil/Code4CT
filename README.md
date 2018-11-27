@@ -92,6 +92,7 @@ Method, Prototype and Constructive
 - Postioned all elements in the learn to section and resized font icons.
 - Added margin and padding to info section.
 - Changed button increase at hover effect from 10% t0 5 like Nate(Lecturer) instructured.
+- Created Course layout, Used a nested grid format/method.
 ---
 
 ## All Rights Reversed 2018, Made by Cbazil
