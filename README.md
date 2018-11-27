@@ -68,7 +68,7 @@ Method, Prototype and Constructive
 ## These elements must do the following:
 
 ### Buttons
-- Must Expand (10% more)
+- Must Expand (5% more)
 
 ### Nav 
 - Should be sticky(Fixed)
@@ -92,7 +92,7 @@ Method, Prototype and Constructive
 - Worked on "Learn to" section, and add background color of black to the background image. Like a merge (Blend mode: Multiple).
 - Postioned all elements in the learn to section and resized font icons.
 - Added margin and padding to info section.
-- Changed button increase at hover effect from 10% t0 5 like Nate(Lecturer) instructured.
+- Changed button increase at hover effect from 10% to 5 like Nate(Lecturer) instructured.
 - Created Course layout, Used a nested grid format/method.
 - Structure the meet team section Grid.
 - Imported the poppins google font and placed it as body.
