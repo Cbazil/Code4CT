@@ -241,7 +241,7 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   width: 100%;
-  height: 440px; }
+  height: 480px; }
 
 #team_nest1,
 #team_nest2,
@@ -251,16 +251,22 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   width: 100%;
-  height: 220px; }
+  height: 240px; }
 
 .team_nest1_item1,
 .team_nest2_item1,
 .team_nest3_item1,
 .team_nest4_item1 {
   width: 100%;
-  height: 200px;
+  height: 240px;
   background-color: gray; }
 
+/* ========== Meet the team Grid | Start ========== */
+/* ============== Social font styling | Start ============== */
+#social_icons {
+  display: block; }
+
+/* ============== Social font styling | End ============== */
 /* ========== Meet the team Grid | Start ========== */
 /* ========= In nav bar | Start========= */
 /* ========= In nav bar | End ========= */

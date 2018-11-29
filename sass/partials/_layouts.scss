@@ -164,7 +164,7 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     width: 100%;
-    height: 440px;
+    height: 480px;
 }
 
 
@@ -176,7 +176,7 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px; // Change when done and delete comment
     width: 100%;
-    height: 220px;
+    height: 240px;
     // background-color: gray;
 }
 .team_nest1_item1,
@@ -184,9 +184,20 @@ a {
 .team_nest3_item1,
 .team_nest4_item1 {
     width: 100%;
-    height: 200px;
+    height: 240px;
     background-color: gray; //Temporarily
 }
 
 /* ========== Meet the team Grid | Start ========== */
+// =======================================================
 
+
+/* ============== Social font styling | Start ============== */
+#social_icons {
+    display: block;
+}
+/* ============== Social font styling | End ============== */
+
+
+// =======================================================
+/* ========== Meet the team Grid | Start ========== */
