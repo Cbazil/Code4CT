@@ -241,7 +241,7 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   width: 100%;
-  height: 480px; }
+  height: 680px; }
 
 #team_nest1,
 #team_nest2,
@@ -251,14 +251,14 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   width: 100%;
-  height: 240px; }
+  height: 340px; }
 
 .team_nest1_item1,
 .team_nest2_item1,
 .team_nest3_item1,
 .team_nest4_item1 {
   width: 100%;
-  height: 240px;
+  height: 340px;
   background-color: gray; }
 
 /* ========== Meet the team Grid | Start ========== */
