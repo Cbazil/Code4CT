@@ -186,7 +186,7 @@ a {
   margin: 20px; }
 
 .nested_grid_item {
-  width: 240px;
+  width: 260px;
   height: 200px; }
 
 /* ============ Who we are grid | End ========== */
@@ -249,7 +249,7 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   width: 100%;
-  height: 680px; }
+  height: 740px; }
 
 #team_nest1,
 #team_nest2,
@@ -259,14 +259,14 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   width: 100%;
-  height: 340px; }
+  height: 370px; }
 
 .team_nest1_item1,
 .team_nest2_item1,
 .team_nest3_item1,
 .team_nest4_item1 {
   width: 100%;
-  height: 340px;
+  height: 370px;
   background-color: gray; }
 
 /* ========== Meet the team Grid | Start ========== */

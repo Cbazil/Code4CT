@@ -86,7 +86,7 @@ a {
 }
 .nested_grid_item {
     // border: blue 2px solid;
-    width: 240px;
+    width: 260px;
     height: 200px;  
     // margin: 10px;
 }
@@ -164,7 +164,7 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     width: 100%;
-    height: 680px;
+    height: 740px;
 }
 
 
@@ -176,7 +176,7 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px; // Change when done and delete comment
     width: 100%;
-    height: 340px;
+    height: 370px;
     // background-color: gray;
 }
 .team_nest1_item1,
@@ -184,7 +184,7 @@ a {
 .team_nest3_item1,
 .team_nest4_item1 {
     width: 100%;
-    height: 340px;
+    height: 370px;
     background-color: gray; //Temporarily
 }
 
