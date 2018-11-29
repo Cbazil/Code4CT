@@ -25,6 +25,10 @@ p {
 h3 {
   font-family: Poppins; }
 
+.fab {
+  color: #666666;
+  padding-right: 10px; }
+
 /* ============ NavBar Components | Start ============= */
 button {
   background-color: #f7f7f7;
@@ -112,6 +116,10 @@ p {
 
 h3 {
   font-family: Poppins; }
+
+.fab {
+  color: #666666;
+  padding-right: 10px; }
 
 ul {
   color: #666666; }
@@ -263,6 +271,13 @@ a {
 
 /* ========== Meet the team Grid | Start ========== */
 /* ============== Social font styling | Start ============== */
+.team_nest1_item2,
+.team_nest2_item2,
+.team_nest3_item2,
+.team_nest4_item2 {
+  margin: 10px;
+  margin-top: -10px; }
+
 #social_icons {
   display: block; }
 
@@ -294,6 +309,10 @@ p {
 
 h3 {
   font-family: Poppins; }
+
+.fab {
+  color: #666666;
+  padding-right: 10px; }
 
 #bg_image {
   width: 100%;
