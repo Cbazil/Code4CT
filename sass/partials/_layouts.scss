@@ -24,7 +24,7 @@ a {
 #home_navbar {
     width: 100%;
     height: 4em;
-    background-color: white; 
+    background-color: $theme_white; 
     text-align: center;
     margin-top: -10px; 
 }
@@ -55,7 +55,6 @@ a {
     height: 22.5px;
     background-color: $theme_white;
 }
-
 .fa-search {
     color: $theme_pink;
     padding: 1px 0px;
@@ -215,3 +214,12 @@ a {
 
 // =======================================================
 /* ========== Meet the team Grid | Start ========== */
+
+// Counter section | Start
+#count_up {
+    width: 100%;
+    margin: 0px;
+    margin-top: 60px;
+    height: 200px;
+    background-color: black;
+}

@@ -72,7 +72,7 @@ a {
 #searchBar {
   border: 1px solid #666666;
   height: 22.5px;
-  background-color: #f7f7f7; }
+  background-color: white; }
 
 .fa-search {
   color: #e1918a;
@@ -198,9 +198,16 @@ a {
 
 /* ============== Social font styling | End ============== */
 /* ========== Meet the team Grid | Start ========== */
+#count_up {
+  width: 100%;
+  margin: 0px;
+  margin-top: 60px;
+  height: 200px;
+  background-color: black; }
+
 /* ============ NavBar Components | Start ============= */
 button {
-  background-color: #f7f7f7;
+  background-color: white;
   border: 1px solid #666666;
   height: 22px;
   cursor: pointer; }
@@ -228,13 +235,13 @@ button {
 #start_button {
   background-color: #e1918a;
   border: 2px solid #e1918a;
-  color: #f7f7f7;
+  color: white;
   border-radius: 2px; }
 
 #donate_button {
   background-color: transparent;
-  color: #f7f7f7;
-  border: 2px solid #f7f7f7;
+  color: white;
+  border: 2px solid white;
   border-radius: 2px; }
 
 #positioning {
