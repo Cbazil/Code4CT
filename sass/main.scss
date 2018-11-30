@@ -1,9 +1,9 @@
-@import'partials/base';
-@import'partials/components';
-@import'partials/functions';
-@import'partials/layouts';
-@import'partials/mixins';
-@import'partials/variables';
+@import 'partials/variables',
+        'partials/mixins',
+        'partials/functions',
+        'partials/layouts',
+        'partials/components',
+        'partials/base';
 
 #bg_image {
     width: 100%;

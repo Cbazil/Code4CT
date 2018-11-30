@@ -29,98 +29,7 @@ h3 {
   color: #666666;
   padding-right: 10px; }
 
-/* ============ NavBar Components | Start ============= */
-button {
-  background-color: #f7f7f7;
-  border: 1px solid #666666;
-  height: 22px;
-  cursor: pointer; }
-
-/* ============ NavBar Components | End ============= */
-/* ============= Image background Components | Start ============= */
-/* ======= Buttons Expands on hover | Start ======= */
-.button {
-  height: 50px;
-  width: 140px;
-  padding: 5px;
-  margin: 5px;
-  border: 1px solid #666666;
-  z-index: -1;
-  cursor: pointer; }
-  .button .fa-angle-right {
-    display: none; }
-
-.button:hover {
-  width: 147px; }
-  .button:hover .fa-angle-right {
-    display: inline-block; }
-
-/* ======= Buttons Expands on hover | End ======= */
-#start_button {
-  background-color: #ee534f;
-  border: 2px solid #ee534f;
-  color: #f7f7f7;
-  border-radius: 2px; }
-
-#donate_button {
-  background-color: transparent;
-  color: #f7f7f7;
-  border: 2px solid #f7f7f7;
-  border-radius: 2px; }
-
-#positioning {
-  text-align: center;
-  width: 60%;
-  height: 40%;
-  margin: 15% 20%;
-  position: absolute;
-  color: white;
-  padding: 10px; }
-
-/* ============= Image background Components | End ============= */
-/* =========== READ MORE BUTTON | Start =========== */
-.readmore_button {
-  width: 120px;
-  height: 40px;
-  color: #666666;
-  padding: 10px;
-  border: #666666 1px solid;
-  margin-top: 35px;
-  cursor: pointer; }
-
-/* =========== READ MORE BUTTON | End =========== */
 /* ============ Nav Bar position | Start ============*/
-/* ========= In nav bar | Start========= */
-/* ========= In nav bar | End ========= */
-/* ====== WEBSITE THEME COLORs | Start ====== */
-/* ====== WEBSITE THEME COLORs  | End */
-/* ====== INDIVISUAL STYLING | Start ======= */
-.pink_color {
-  color: #ee534f; }
-
-h1 {
-  font-size: 45px; }
-
-.description_p {
-  font-size: 18px;
-  margin-top: -26px;
-  color: white; }
-
-/* ====== INDIVISUAL STYLING | End ======= */
-img {
-  width: 100%;
-  height: 100%; }
-
-p {
-  color: #666666; }
-
-h3 {
-  font-family: Poppins; }
-
-.fab {
-  color: #666666;
-  padding-right: 10px; }
-
 ul {
   color: #666666; }
   ul li {
@@ -283,37 +192,66 @@ a {
 
 /* ============== Social font styling | End ============== */
 /* ========== Meet the team Grid | Start ========== */
-/* ========= In nav bar | Start========= */
-/* ========= In nav bar | End ========= */
-/* ====== WEBSITE THEME COLORs | Start ====== */
-/* ====== WEBSITE THEME COLORs  | End */
-/* ====== INDIVISUAL STYLING | Start ======= */
-.pink_color {
-  color: #ee534f; }
+/* ============ NavBar Components | Start ============= */
+button {
+  background-color: #f7f7f7;
+  border: 1px solid #666666;
+  height: 22px;
+  cursor: pointer; }
 
-h1 {
-  font-size: 45px; }
+/* ============ NavBar Components | End ============= */
+/* ============= Image background Components | Start ============= */
+/* ======= Buttons Expands on hover | Start ======= */
+.button {
+  height: 50px;
+  width: 140px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #666666;
+  z-index: -1;
+  cursor: pointer; }
+  .button .fa-angle-right {
+    display: none; }
 
-.description_p {
-  font-size: 18px;
-  margin-top: -26px;
-  color: white; }
+.button:hover {
+  width: 147px; }
+  .button:hover .fa-angle-right {
+    display: inline-block; }
 
-/* ====== INDIVISUAL STYLING | End ======= */
-img {
-  width: 100%;
-  height: 100%; }
+/* ======= Buttons Expands on hover | End ======= */
+#start_button {
+  background-color: #ee534f;
+  border: 2px solid #ee534f;
+  color: #f7f7f7;
+  border-radius: 2px; }
 
-p {
-  color: #666666; }
+#donate_button {
+  background-color: transparent;
+  color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+  border-radius: 2px; }
 
-h3 {
-  font-family: Poppins; }
+#positioning {
+  text-align: center;
+  width: 60%;
+  height: 40%;
+  margin: 15% 20%;
+  position: absolute;
+  color: white;
+  padding: 10px; }
 
-.fab {
+/* ============= Image background Components | End ============= */
+/* =========== READ MORE BUTTON | Start =========== */
+.readmore_button {
+  width: 120px;
+  height: 40px;
   color: #666666;
-  padding-right: 10px; }
+  padding: 10px;
+  border: #666666 1px solid;
+  margin-top: 35px;
+  cursor: pointer; }
 
+/* =========== READ MORE BUTTON | End =========== */
 #bg_image {
   width: 100%;
   background: url(../imgs/bgimage.jpg);
