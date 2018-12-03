@@ -215,11 +215,21 @@ a {
 // =======================================================
 /* ========== Meet the team Grid | Start ========== */
 
-// Counter section | Start
+// =========== Counter section | Start ===========
 #count_up {
     width: 100%;
-    margin: 0px;
     margin-top: 60px;
     height: 200px;
     background-color: black;
+
+}
+#count_up_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    margin: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    padding: 20px;
 }

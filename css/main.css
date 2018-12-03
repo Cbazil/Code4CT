@@ -7,7 +7,8 @@
   color: #e1918a; }
 
 h1 {
-  font-size: 3em; }
+  font-size: 3em;
+  color: white; }
 
 .description_p {
   font-size: 18px;
@@ -200,10 +201,19 @@ a {
 /* ========== Meet the team Grid | Start ========== */
 #count_up {
   width: 100%;
-  margin: 0px;
   margin-top: 60px;
   height: 200px;
   background-color: black; }
+
+#count_up_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  margin: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  padding: 20px; }
 
 /* ============ NavBar Components | Start ============= */
 button {
