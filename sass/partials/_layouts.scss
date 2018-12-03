@@ -107,12 +107,12 @@ a {
 }
 #learn_to_align {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 330px;
+    grid-template-columns: repeat(4, 1fr);
+    height: 350px;
     text-align: center;
     color: white;
-    margin-left: 90px;
-    margin-right: 90px;   
+    margin-left: 50px;
+    margin-right: 50px;   
 }
 .learn_to_fas {
     font-size: 3em;
@@ -122,7 +122,7 @@ a {
 }
 /* Used grid instead of flex for better handling */
 .flex_item {
-    padding: 0px 50px;
+    padding: 0px 40px;
     margin-top: 30px;
 }
 /* ========== What is learn't section | End ========== */
