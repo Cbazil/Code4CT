@@ -78,28 +78,7 @@ Method, Prototype and Constructive
 
 ---
 ## Change log
-- Made Navbar, Positioned it added colors.
-- Imported fa fa image(Search).
-- Implemented sass partials, and devided work into the correct styles files.
-- Created image folder and placed one in.
-- Added background image, background-size: cover; 
-- Added components to bg-cover like website/theme/layout (h1, p and 2 buttons).
-- Sized the buttons(Class), Positioned them then added colors.
-- Need to increase size of button on hover and adding Arrow. (Function or mixin).
-- Commented out RED Border(indicator) for the time being(Future use).
-- (2018/11/26) Added the botton expanding effect, But its not really a function or mixin(Need to work on it). Also commented out unnessary comments.
-- Created Grid for the Who We Are section, Then made a nested grid for the images(Everything is wrapped by borders(Indicator)).
-- Worked on "Learn to" section, and add background color of black to the background image. Like a merge (Blend mode: Multiple).
-- Postioned all elements in the learn to section and resized font icons.
-- Added margin and padding to info section.
-- Changed button increase at hover effect from 10% to 5 like Nate(Lecturer) instructured.
-- Created Course layout, Used a nested grid format/method.
-- Structure the meet team section Grid.
-- Imported the poppins google font and placed it as body.
-- Positioned and resized font of nav section due to font family change.
-- Increased grid gap size (First nested one).
-- Created/set the me team section grid.
-- Added pointer cursor for buttons
+
 ---
 
 ## &copy; All Rights Reversed 2018, Made by Cbazil
