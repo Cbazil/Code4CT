@@ -53,7 +53,14 @@ a {
   height: 4em;
   background-color: white;
   text-align: center;
-  margin-top: -10px; }
+  margin-top: -4.5em;
+  position: fixed;
+  z-index: 2; }
+
+#blank_nav {
+  display: block;
+  height: 3.5em;
+  background-color: inherit; }
 
 #home_nav_prop {
   text-align: center;
@@ -72,7 +79,7 @@ a {
 /*===========  Search bar positioning | Start  ============ */
 #searchBar {
   border: 1px solid #666666;
-  height: 22.5px;
+  height: 22px;
   background-color: white; }
 
 .fa-search {
@@ -80,8 +87,8 @@ a {
   padding: 1px 0px; }
 
 .search_position {
-  margin-top: 5px;
-  margin-right: 14%; }
+  margin-top: 22px;
+  margin-right: -20%; }
 
 /*===========  Search bar positioning | End  ============ */
 /* ============ Who we are grid | Start ========== */
