@@ -146,6 +146,9 @@ a {
   margin: 20px 150px;
   padding: 20px; }
 
+#meet_team {
+  margin-top: 60px; }
+
 /* ========== Info section Course previews and Team members | End ========== */
 /* ========== Courses Grid Section Also Nested| Start =========== */
 #course_grid {
