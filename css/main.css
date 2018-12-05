@@ -158,12 +158,12 @@ a {
   grid-gap: 20px; }
 
 .course_nested_item {
-  background-color: gray;
+  background-color: #e1918a;
   height: 200px;
   width: 100%; }
 
 .course_grid_item2 {
-  background-color: gray; }
+  background-color: #e1918a; }
 
 /* ========== Courses Grid Section Also Nested| End =========== */
 /* ========== Meet the team Grid | Start ========== */
@@ -299,7 +299,7 @@ html {
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
-  background-color: grey; }
+  background-color: #666666; }
 
 body {
   font-family: 'Poppins', sans-serif; }
