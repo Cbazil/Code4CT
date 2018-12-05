@@ -242,3 +242,31 @@ a {
     text-align: center;
     padding: 20px;
 }
+// ========== Counter section | end ==========
+
+/* ========= Subcribe Section  | Start ======== */
+#subcribe_sec {
+    text-align: center;
+    margin-top: 40px;
+}
+// =========== Form section | Start ============>
+
+#subscribe_input {
+    height: 40px;
+    width: 20%;
+    border-radius: 3px;
+    border: solid 1px $theme_grey;
+}
+#subscribe_button {
+    background-color: $theme_pink;
+    height: 40px;
+    width: 8%;
+    color: $theme_white;
+    border-radius: 3px;
+    border: transparent;
+    margin-left: 3px;
+}
+// <========== Form section | End ==============
+
+
+/* ========= Subcribe Section  | End ======== */

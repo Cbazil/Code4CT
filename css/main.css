@@ -30,6 +30,10 @@ h3 {
   color: #666666;
   padding-right: 10px; }
 
+.fa-paper-plane {
+  color: #e1918a;
+  padding-right: 10px; }
+
 /* ============ Nav Bar position | Start ============*/
 #logo {
   width: 12%;
@@ -225,6 +229,27 @@ a {
   text-align: center;
   padding: 20px; }
 
+/* ========= Subcribe Section  | Start ======== */
+#subcribe_sec {
+  text-align: center;
+  margin-top: 40px; }
+
+#subscribe_input {
+  height: 40px;
+  width: 20%;
+  border-radius: 3px;
+  border: solid 1px #666666; }
+
+#subscribe_button {
+  background-color: #e1918a;
+  height: 40px;
+  width: 8%;
+  color: white;
+  border-radius: 3px;
+  border: transparent;
+  margin-left: 3px; }
+
+/* ========= Subcribe Section  | End ======== */
 /* ============ NavBar Components | Start ============= */
 button {
   background-color: white;
