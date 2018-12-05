@@ -251,9 +251,17 @@ a {
   color: white;
   border-radius: 3px;
   border: transparent;
-  margin-left: 3px; }
+  margin-left: 2px; }
 
 /* ========= Subcribe Section  | End ======== */
+/* ============= Sponsorship section | Start ============== */
+#sponsorships {
+  width: 100%;
+  margin-top: 40px;
+  height: 200px;
+  background-color: black; }
+
+/* ============= Sponsorship section | End =============== */
 /* ============ NavBar Components | Start ============= */
 button {
   background-color: white;
