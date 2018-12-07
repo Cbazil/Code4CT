@@ -28,7 +28,8 @@ h3 {
 
 .fab {
   color: #666666;
-  padding-right: 10px; }
+  padding-right: 10px;
+  cursor: pointer; }
 
 .fa-paper-plane {
   color: #e1918a;
