@@ -265,7 +265,11 @@ a {
 /* ============= Sponsorship section | End =============== */
 /* ============== Detials section | Start =============== */
 #details_sec {
-  margin: 20px 150px; }
+  margin: 20px 150px;
+  height: 400px; }
+
+#details_flexbox {
+  display: flex; }
 
 /* ============ NavBar Components | Start ============= */
 button {
