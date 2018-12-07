@@ -294,3 +294,30 @@ a {
 #details_flexbox {
     display: flex;
 }
+.details_ul > li {
+    list-style-type: disc;
+    padding-left: 2px;
+}
+#extra_padding {
+    padding-left: 20px;
+}
+
+// Footer section 
+
+footer {
+    width: 100%;
+    background-color: $theme_pink;
+
+}
+#footer_flex{
+    margin: 20px 150px;
+    display: flex;
+    justify-content: space-between;    
+    
+}
+#footer_flex > p {
+    color: $theme_white;
+}
+#footer_flex > .fab {
+    color: $theme_white;
+}
