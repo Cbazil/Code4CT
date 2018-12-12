@@ -1,0 +1,480 @@
+/* ========= In nav bar | Start========= */
+/* ========= In nav bar | End ========= */
+/* ====== WEBSITE THEME COLORs | Start ====== */
+/* ====== WEBSITE THEME COLORs  | End */
+/* ====== INDIVISUAL STYLING | Start ======= */
+.pink_color {
+  color: #e1918a;
+}
+
+h1 {
+  font-size: 3em;
+  color: white;
+}
+
+.description_p {
+  font-size: 18px;
+  margin-top: -26px;
+  color: white;
+}
+
+/* ====== INDIVISUAL STYLING | End ======= */
+img {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  color: #666666;
+}
+
+h3 {
+  font-family: Poppins;
+}
+
+.fab {
+  color: #666666;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.fa-paper-plane {
+  color: #e1918a;
+  padding-right: 10px;
+}
+
+.p_space {
+  margin-left: 10px;
+}
+
+.detail_but {
+  height: 30px;
+  width: 30px;
+  border: #666666 1px solid;
+  border-radius: 5px;
+}
+
+.white_C {
+  color: white;
+}
+
+/* ============ Nav Bar position | Start ============*/
+#logo {
+  width: 12%;
+  height: 100%;
+  float: left;
+  margin-left: 20%;
+}
+
+ul {
+  color: #666666;
+}
+
+ul li {
+  float: left;
+  list-style: none;
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#home_navbar {
+  width: 100%;
+  height: 4em;
+  background-color: white;
+  text-align: center;
+  margin-top: -4em;
+  position: fixed;
+  z-index: 2;
+}
+
+#blank_nav {
+  display: block;
+  height: 3.5em;
+  background-color: inherit;
+}
+
+#home_nav_prop {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  position: inherit;
+  margin: 0px 35%;
+  padding: 1px;
+}
+
+/* ============ Nav Bar position | End ============*/
+/*===========  Search bar positioning | Start  ============ */
+#searchBar {
+  border: 1px solid #666666;
+  height: 22px;
+  background-color: white;
+}
+
+.fa-search {
+  color: #e1918a;
+  padding: 1px 0px;
+}
+
+.search_position {
+  margin-top: 22px;
+  margin-right: -20%;
+}
+
+/*===========  Search bar positioning | End  ============ */
+/* ============ Who we are grid | Start ========== */
+#grid_sec {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin: 20px 150px;
+  padding: 20px;
+}
+
+.grid_item {
+  margin: 20px;
+}
+
+#nested_grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 1em;
+  margin: 20px;
+}
+
+.nested_grid_item {
+  width: 260px;
+  height: 200px;
+}
+
+/* ============ Who we are grid | End ========== */
+/* ========== What is learn't section | Start ========== */
+#learn_to {
+  background-color: black;
+  width: 100%;
+}
+
+#learn_to_align {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  height: 360px;
+  text-align: center;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.learn_to_fas {
+  font-size: 3em;
+  color: #e1918a;
+}
+
+/* Used grid instead of flex for better handling */
+.flex_item {
+  padding: 0px 40px;
+  margin-top: 30px;
+}
+
+/* ========== What is learn't section | End ========== */
+/* ========== Info section Course previews and Team members | Start ========== */
+#info_sec {
+  margin: 20px 150px;
+  padding: 20px;
+}
+
+#meet_team {
+  margin-top: 60px;
+}
+
+/* ========== Info section Course previews and Team members | End ========== */
+/* ========== Courses Grid Section Also Nested| Start =========== */
+#course_grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  height: 420px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+#course_nested {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.course_nested_item {
+  background-color: #e1918a;
+  height: 210px;
+  width: 100%;
+}
+
+.course_grid_item2 {
+  background-color: #e1918a;
+}
+
+/* ========== Courses Grid Section Also Nested| End =========== */
+/* ========== Meet the team Grid | Start ========== */
+#team_grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  height: 780px;
+}
+
+#team_nest1,
+#team_nest2,
+#team_nest3,
+#team_nest4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+  height: 390px;
+}
+
+.team_nest1_item1,
+.team_nest2_item1,
+.team_nest3_item1,
+.team_nest4_item1 {
+  width: 100%;
+  height: 390px;
+  background-color: gray;
+}
+
+/* ========== Meet the team Grid | Start ========== */
+/* ============== Social font styling | Start ============== */
+.team_nest1_item2,
+.team_nest2_item2,
+.team_nest3_item2,
+.team_nest4_item2 {
+  margin: 10px;
+  margin-top: -10px;
+  position: relative;
+}
+
+#social_icons {
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+/* ============== Social font styling | End ============== */
+/* ========== Meet the team Grid | Start ========== */
+#count_up {
+  width: 100%;
+  margin-top: 60px;
+  height: 240px;
+  background-color: black;
+}
+
+#count_up_grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  margin: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ========= Subcribe Section  | Start ======== */
+#subcribe_sec {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#subscribe_input {
+  height: 40px;
+  width: 20%;
+  border-radius: 3px;
+  border: solid 1px #666666;
+}
+
+#subscribe_button {
+  background-color: #e1918a;
+  height: 40px;
+  width: 8%;
+  color: white;
+  border-radius: 3px;
+  border: transparent;
+  margin-left: 2px;
+}
+
+/* ========= Subcribe Section  | End ======== */
+/* ============= Sponsorship section | Start ============== */
+#sponsorships {
+  width: 100%;
+  margin-top: 40px;
+  height: 200px;
+  background-color: black;
+}
+
+/* ============= Sponsorship section | End =============== */
+/* ============== Detials section | Start =============== */
+#details_sec {
+  margin: 20px 150px;
+  height: 400px;
+}
+
+#details_flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.details_ul > li {
+  list-style-type: disc;
+  padding-left: 2px;
+}
+
+#extra_padding {
+  padding-left: 20px;
+}
+
+footer {
+  width: 100%;
+  background-color: #e1918a;
+}
+
+#footer_flex {
+  margin: 20px 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer_flex > p {
+  color: white;
+}
+
+#footer_flex > .fab {
+  color: white;
+}
+
+/* ============ NavBar Components | Start ============= */
+button {
+  background-color: white;
+  border: 1px solid #666666;
+  height: 22px;
+  cursor: pointer;
+}
+
+/* ============ NavBar Components | End ============= */
+/* ============= Image background Components | Start ============= */
+/* ======= Buttons Expands on hover | Start ======= */
+.button {
+  height: 50px;
+  width: 140px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #666666;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.button .fa-angle-right {
+  display: none;
+}
+
+.button:hover {
+  width: 147px;
+}
+
+.button:hover .fa-angle-right {
+  display: inline-block;
+}
+
+/* ======= Buttons Expands on hover | End ======= */
+#start_button {
+  background-color: #e1918a;
+  border: 2px solid #e1918a;
+  color: white;
+  border-radius: 2px;
+}
+
+#donate_button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+
+#positioning {
+  text-align: center;
+  width: 60%;
+  height: 40%;
+  margin: 15% 20%;
+  position: absolute;
+  color: white;
+  padding: 10px;
+}
+
+/* ============= Image background Components | End ============= */
+/* =========== READ MORE BUTTON | Start =========== */
+.readmore_button {
+  width: 120px;
+  height: 40px;
+  color: #666666;
+  padding: 10px;
+  border: #666666 1px solid;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+/* =========== READ MORE BUTTON | End =========== */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+}
+
+#bg_image {
+  width: 100%;
+  background: url(../imgs/bgimage.jpg);
+  height: 640px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: #666666;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
