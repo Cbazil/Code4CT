@@ -6,6 +6,7 @@ $theme_silver : #f9f9f9;
 $theme_pink : #e1918a;
 $theme_white : white;
 $theme_grey: #666666;
+$theme_Lgrey: #e7e7e7;
 
 /* ====== WEBSITE THEME COLORs  | End */
 
@@ -13,6 +14,9 @@ $theme_grey: #666666;
 
 .pink_color {
     color: $theme_pink;
+}
+.grey_color {
+    color: $theme_grey;
 }
 h1 {
     font-size: 3em;
