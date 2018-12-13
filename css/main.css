@@ -115,7 +115,7 @@ a {
 #grid_sec {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 20px 150px;
+  margin: 20px 160px;
   padding: 20px; }
 
 .grid_item {
@@ -159,7 +159,7 @@ a {
 /* ========== What is learn't section | End ========== */
 /* ========== Info section Course previews and Team members | Start ========== */
 #info_sec {
-  margin: 20px 150px;
+  margin: 20px 160px;
   padding: 20px; }
 
 #meet_team {
@@ -280,7 +280,7 @@ a {
 /* ============= Sponsorship section | End =============== */
 /* ============== Detials section | Start =============== */
 #details_sec {
-  margin: 20px 150px;
+  margin: 20px 160px;
   height: 400px; }
 
 #details_flexbox {
@@ -298,7 +298,7 @@ footer {
   background-color: #e1918a; }
 
 #footer_flex {
-  margin: 20px 150px;
+  margin: 20px 160px;
   display: flex;
   justify-content: space-between; }
 
@@ -325,7 +325,7 @@ footer {
 /* ================== Description Section | END =============== */
 /* ================== Contact Form | START =================== */
 #contact_form {
-  margin: 20px 150px; }
+  margin: 20px 160px; }
 
 #contact_grid {
   width: 100%;
