@@ -312,6 +312,7 @@ footer {
                 =====================================           Contact Page          ====================================
 
  '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+/* ================== Description Section | START =============== */
 #description {
   width: 100%;
   height: 250px;
@@ -321,6 +322,35 @@ footer {
 .d_positioning {
   height: 70px; }
 
+/* ================== Description Section | END =============== */
+/* ================== Contact Form | START =================== */
+#contact_form {
+  margin: 20px 150px; }
+
+#contact_grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 64% 34%;
+  grid-gap: 1%; }
+
+#details_form {
+  display: flex;
+  justify-content: space-between; }
+
+#user_name, #user_email, #user_number {
+  width: 30%;
+  height: 3em;
+  border: solid 1px #666666;
+  border-radius: 2px; }
+
+textarea {
+  width: 100%;
+  height: 15em;
+  border-radius: 2px;
+  border: solid 1px #666666;
+  margin-bottom: 20px; }
+
+/* ================== Contact Form | END =================== */
 /* ============ NavBar Components | Start ============= */
 button {
   background-color: white;
@@ -381,6 +411,14 @@ button {
   cursor: pointer; }
 
 /* =========== READ MORE BUTTON | End =========== */
+#contact_button {
+  background-color: #e1918a;
+  border: 2px solid #e1918a;
+  color: white;
+  border-radius: 2px;
+  margin: 0px;
+  padding: 10px; }
+
 * {
   box-sizing: border-box; }
 

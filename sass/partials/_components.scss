@@ -71,3 +71,15 @@ button{
     cursor:pointer;
 }
 /* =========== READ MORE BUTTON | End =========== */
+
+
+
+
+#contact_button {
+    background-color: $theme_pink;
+    border: 2px solid $theme_pink;
+    color: $theme_white;
+    border-radius: 2px;
+    margin: 0px;
+    padding: 10px;
+}
