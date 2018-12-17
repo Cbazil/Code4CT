@@ -78,7 +78,7 @@ Method, Prototype and Constructive
 
 ---
 ## Change log
-
+- Button size 10% to 5%
 ---
 
 ## &copy; All Rights Reversed 2018, Made by Cbazil
