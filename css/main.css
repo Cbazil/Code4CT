@@ -50,6 +50,12 @@ h3 {
 .white_C {
   color: white; }
 
+* {
+  box-sizing: border-box; }
+
+html {
+  width: 100%; }
+
 /* ============ Nav Bar position | Start ============*/
 #logo {
   width: 12%;
@@ -141,11 +147,12 @@ a {
 #learn_to_align {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 360px;
   text-align: center;
   color: white;
   margin-left: 50px;
-  margin-right: 50px; }
+  margin-right: 50px;
+  padding-bottom: 10px;
+  height: auto; }
 
 .learn_to_fas {
   font-size: 3em;
@@ -432,12 +439,16 @@ button {
   margin: 0px;
   padding: 10px; }
 
-* {
-  box-sizing: border-box; }
+@media (max-width: 1440px) {
+  #logo {
+    margin-left: 15%; }
 
-html {
-  width: 100%; }
+  .search_position {
+    margin-top: 22px;
+    margin-right: -30%; }
 
+  #home_nav_prop {
+    margin: 0px 30%; } }
 #bg_image {
   width: 100%;
   background: url(../imgs/bgimage.jpg);
