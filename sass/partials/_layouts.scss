@@ -400,26 +400,36 @@ textarea {
     color: $theme_grey;
     width: 100%;
  }
- #port_gal_grid1, #port_gal_grid2, #port_gal_grid3{
-         display: grid;
-
-
+ #port_gal_grid {
+     width: 100%;
  }
- #port_gal_grid1 {
+//  #port_gal_grid1, #port_gal_grid2, #port_gal_grid3{
+//          display: grid;
+
+
+//  }
+ .port_gal_grid1 {
      grid-template-columns: 23% 23% 31% 23%;
      border: solid 2px red; //Indicators
-     height: 275px;       
+     height: 275px;     
+     display: grid;  
 }
- #port_gal_grid2 {
+ .port_gal_grid2 {
     grid-template-columns: 23% 31% 23% 23%;
     border: solid 2px red; //Indicators
+    display: grid; 
+    height: 275px; 
  }
 
- #port_gal_grid3 {
+ .port_gal_grid3 {
     grid-template-columns: 23% 23% 31% 23%;
     border: solid 2px red; //Indicators
     height: 275px;
+    display: grid; 
  }
  .port_gal_grid_item {
     border: solid 2px red; //Indicators
  }
+#port_gal_grid_2, #port_gal_grid_3 {
+    display: none;
+}

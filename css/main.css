@@ -376,25 +376,32 @@ textarea {
   color: #666666;
   width: 100%; }
 
-#port_gal_grid1, #port_gal_grid2, #port_gal_grid3 {
+#port_gal_grid {
+  width: 100%; }
+
+.port_gal_grid1 {
+  grid-template-columns: 23% 23% 31% 23%;
+  border: solid 2px red;
+  height: 275px;
   display: grid; }
 
-#port_gal_grid1 {
-  grid-template-columns: 23% 23% 31% 23%;
-  border: solid 2px red;
-  height: 275px; }
-
-#port_gal_grid2 {
+.port_gal_grid2 {
   grid-template-columns: 23% 31% 23% 23%;
-  border: solid 2px red; }
+  border: solid 2px red;
+  display: grid;
+  height: 275px; }
 
-#port_gal_grid3 {
+.port_gal_grid3 {
   grid-template-columns: 23% 23% 31% 23%;
   border: solid 2px red;
-  height: 275px; }
+  height: 275px;
+  display: grid; }
 
 .port_gal_grid_item {
   border: solid 2px red; }
+
+#port_gal_grid_2, #port_gal_grid_3 {
+  display: none; }
 
 /* ============ NavBar Components | Start ============= */
 button {
