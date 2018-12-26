@@ -277,15 +277,45 @@ a {
   margin-left: 2px; }
 
 /* ========= Subcribe Section  | End ======== */
-/* ============= Sponsorship section | Start ============== */
-#sponsorships {
+/* ============== Detials section | Start =============== */
+/* ==================== Broadcast section | start ================== */
+/* Broadcast Animation done here */
+#broadcast {
   width: 100%;
   margin-top: 40px;
   height: 200px;
   background-color: black; }
 
-/* ============= Sponsorship section | End =============== */
-/* ============== Detials section | Start =============== */
+.broadcast_container {
+  display: block;
+  margin: 0 auto;
+  height: 178px;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: black; }
+
+.sponsorship_images {
+  height: 180px;
+  width: 7000px;
+  background-color: black;
+  animation-name: broadcast;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: relative;
+  left: 0%; }
+
+.sponsorship_images img {
+  display: inline;
+  height: 190px;
+  width: auto;
+  margin-right: 50px; }
+
+@keyframes broadcast {
+  100% {
+    position: relative;
+    left: -5200px; } }
+/* ==================== Broadcast section | End ================== */
 #details_sec {
   margin: 20px 160px;
   height: 400px; }
