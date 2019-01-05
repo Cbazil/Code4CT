@@ -411,26 +411,38 @@ textarea {
 
 .port_gal_grid1 {
   grid-template-columns: 23% 23% 31% 23%;
-  border: solid 2px red;
   height: 275px;
   display: grid; }
 
 .port_gal_grid2 {
   grid-template-columns: 23% 31% 23% 23%;
-  border: solid 2px red;
   display: grid;
   height: 275px; }
 
 .port_gal_grid3 {
   grid-template-columns: 23% 23% 31% 23%;
-  border: solid 2px red;
   height: 275px;
   display: grid; }
 
-.port_gal_grid_item {
-  border: solid 2px red; }
+#port_gal_grid_2, #port_gal_grid_3, #port_gal_grid_4 {
+  display: none; }
 
-#port_gal_grid_2, #port_gal_grid_3 {
+img {
+  width: 100%;
+  height: 100%; }
+
+#port_slide_buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  text-align: center; }
+
+#port_slide_buttons > button {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px; }
+
+#button4 {
   display: none; }
 
 /* ============ NavBar Components | Start ============= */
