@@ -100,6 +100,8 @@ a {
   position: inherit;
   margin: 0px 35%;
   padding: 1px; }
+  #home_nav_prop ul > li:active {
+    color: #e1918a; }
 
 /* ============ Nav Bar position | End ============*/
 /*===========  Search bar positioning | Start  ============ */
@@ -450,6 +452,56 @@ img {
                 =====================================           About Page          ====================================
 
  '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+#code4ct_intro_sec {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+#intro_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 20px 160px; }
+
+.intro_grid_item2 {
+  background-color: grey; }
+
+#who_we_are_sec {
+  margin: 0;
+  width: 100%; }
+
+#who_we_are_grid {
+  width: inherit;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr; }
+
+.who_we_are_grid_item1 {
+  background-color: #666666; }
+
+.who_we_are_grid_item2 h4 {
+  color: #e1918a; }
+
+#meet_team2 {
+  margin: 20px 160px;
+  margin-top: 60px;
+  padding-bottom: 60px; }
+
+#statistics_sec {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  margin-top: 60px;
+  margin-bottom: 40px; }
+  #statistics_sec h4 {
+    color: white; }
+
+#statistics_grid {
+  padding: 20px 160px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  text-align: center; }
+
 /* ============ NavBar Components | Start ============= */
 button {
   background-color: white;
@@ -517,6 +569,12 @@ button {
   border-radius: 2px;
   margin: 0px;
   padding: 10px; }
+
+#about_course_button {
+  background-color: #e1918a;
+  border: 2px solid #e1918a;
+  color: white;
+  border-radius: 2px; }
 
 @media (max-width: 1440px) {
   #logo {
