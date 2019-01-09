@@ -506,6 +506,20 @@ img {
                 =====================================           Courses Page          ====================================
 
  '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+#courses_sec {
+  margin: 20px 160px; }
+
+#courses_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 15px;
+  grid-gap: 15px; }
+
+.courses_grid_item {
+  width: 100%;
+  background-color: #666666;
+  height: 300px; }
+
 /* ============ NavBar Components | Start ============= */
 button {
   background-color: white;
