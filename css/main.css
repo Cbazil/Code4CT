@@ -69,6 +69,10 @@ ul {
     float: left;
     list-style: none;
     padding-right: 20px; }
+  ul li:hover {
+    color: #e1918a; }
+  ul li:active {
+    color: #e1918a; }
 
 a {
   text-decoration: none;

@@ -16,6 +16,12 @@ ul {
     list-style: none;
     padding-right: 20px;
     } 
+    li:hover {
+        color: $theme_pink;
+    }
+    li:active {
+        color: $theme_pink;
+    }
 }  
 a {
     text-decoration: none;
