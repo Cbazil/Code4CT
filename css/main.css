@@ -63,17 +63,6 @@ html {
   float: left;
   margin-left: 20%; }
 
-ul {
-  color: #666666; }
-  ul li {
-    float: left;
-    list-style: none;
-    padding-right: 20px; }
-    ul li:hover {
-      color: #e1918a; }
-    ul li:active {
-      color: #e1918a !important; }
-
 .active {
   color: #e1918a; }
 
@@ -81,14 +70,43 @@ a {
   text-decoration: none;
   color: inherit; }
 
-#home_navbar {
+#gridNav {
   width: 100%;
-  height: 4em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+  padding: 5px 0;
   background-color: white;
-  text-align: center;
-  margin-top: -4em;
+  margin-top: -65px;
   position: fixed;
   z-index: 2; }
+
+#gridLogo {
+  width: 100%;
+  height: 60px;
+  padding-left: 55%; }
+  #gridLogo img {
+    height: 100%;
+    width: auto; }
+
+nav {
+  width: 100%;
+  height: auto; }
+  nav ul {
+    color: #666666;
+    display: inline-block;
+    width: inherit; }
+    nav ul li {
+      float: left;
+      list-style: none;
+      padding-right: 20px; }
+      nav ul li:hover {
+        color: #e1918a; }
+      nav ul li:active {
+        color: #e1918a !important; }
+
+#gridSearchBar {
+  padding-top: 16px; }
 
 #blank_nav {
   display: block;
