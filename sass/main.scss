@@ -22,16 +22,26 @@ body {
 }
 @media (max-width: 580px){  
     h1 {
-        font-size: 14px;
+        font-size: 12px;
     }
     .description_p {
-        font-size: 9px;
+        font-size: 8px;
+        
     }
     #bg_image {
         width: inherit;
-        height: 280px;
+        height: 280px;        
+        margin-top: 100px;
     }
     #blank_nav {
         height: 3.5em;
+    }
+    #positioning {
+        padding: 20% 10%;
+        width: 100%;
+        margin: 0%;
+        .description_p {
+            margin-top: 2px;
+        }
     }
 }
