@@ -20,4 +20,18 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-
+@media (max-width: 580px){  
+    h1 {
+        font-size: 14px;
+    }
+    .description_p {
+        font-size: 9px;
+    }
+    #bg_image {
+        width: inherit;
+        height: 280px;
+    }
+    #blank_nav {
+        height: 3.5em;
+    }
+}
