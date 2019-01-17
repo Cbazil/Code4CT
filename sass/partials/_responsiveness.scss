@@ -15,10 +15,92 @@
 
 // Nav Bar
 // Tablet and mobile view
+@media (max-width: 1024px) {
+    #grid_sec {
+        margin: 20px 60px;
+        #grid_sec {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    #info_sec {
+        margin: 20px 60px;
+    }
+}
 @media (max-width: 780px){
-
+    #gridNav {
+        grid-template-columns: 1fr;
+        text-align: center;
+        width: 100%;    
+        
+        #gridLogo {
+        margin: 0;
+        text-align: left;
+        padding: 0;
+        }
+        // nav {
+            
+        //     padding: none;
+        //     width: 100%;
+        //     ul {
+        //      text-align: center;
+        //      width: 100%;
+        //     }
+        // }
+        #gridSearchBar {
+            text-align: center;
+            margin: 0;
+            form {
+                width: 100%;
+                margin: 0 !important;
+                text-align: inherit;
+            }
+        }
+    }
+    #bg_image {
+        height: 480px;
+    }
+    #grid_sec {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+    #learn_to_align {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #info_sec {
+        margin: 20px;
+        padding-bottom: 20px;
+        height: auto;
+    }
+    #courses_pre {
+        margin-top: 40px;
+        padding-top: 40px;
+    }
+    #course_grid {
+        grid-template-columns: 1fr;
+        // padding-bottom: 20px;
+    }
+    #meet_team {
+        margin: 20px;
+        padding: 20px;
+        height: auto;
+    }
+    #team_grid {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+    #count_up {
+        margin-top: 20px;
+    }
+    #count_up_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #details_sec {
+        margin: 20px;
+    }
 }
-@media (max-width: 480px){
+// @media (max-width: 480px){
 
-}
+// }
 

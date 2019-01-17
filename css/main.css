@@ -50,6 +50,9 @@ h3 {
 .white_C {
   color: white; }
 
+.center_align {
+  text-align: center; }
+
 * {
   box-sizing: border-box; }
 
@@ -89,44 +92,33 @@ a {
     height: 100%;
     width: auto; }
 
-nav {
+#gridNav > nav {
   width: 100%;
   height: auto; }
-  nav ul {
+  #gridNav > nav ul {
     color: #666666;
     display: inline-block;
-    width: inherit; }
-    nav ul li {
+    width: inherit;
+    text-align: center; }
+    #gridNav > nav ul li {
       float: left;
       list-style: none;
       padding-right: 20px; }
-      nav ul li:hover {
+      #gridNav > nav ul li:hover {
         color: #e1918a; }
-      nav ul li:active {
+      #gridNav > nav ul li:active {
         color: #e1918a !important; }
 
 #gridSearchBar {
-  padding-top: 16px; }
+  padding-top: 16px;
+  width: 100%;
+  margin: 0;
+  padding-left: 10%; }
 
 #blank_nav {
   display: block;
   height: 3.5em;
   background-color: inherit; }
-
-#home_nav_prop {
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.14;
-  letter-spacing: normal;
-  position: inherit;
-  margin: 0px 35%;
-  padding: 1px; }
-  #home_nav_prop ul > li:active {
-    color: #e1918a; }
 
 /* ============ Nav Bar position | End ============*/
 /*===========  Search bar positioning | Start  ============ */
@@ -138,10 +130,6 @@ nav {
 .fa-search {
   color: #e1918a;
   padding: 1px 0px; }
-
-.search_position {
-  margin-top: 22px;
-  margin-right: -20%; }
 
 /*===========  Search bar positioning | End  ============ */
 /* ============ Who we are grid | Start ========== */
@@ -194,11 +182,15 @@ nav {
 /* ========== Info section Course previews and Team members | Start ========== */
 #info_sec {
   margin: 20px 160px;
-  padding: 20px; }
+  padding: 20px;
+  height: auto; }
 
 #meet_team {
   margin-top: 60px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  padding: 20px 0;
+  height: auto;
+  width: 100%; }
 
 /* ========== Info section Course previews and Team members | End ========== */
 /* ========== Courses Grid Section Also Nested| Start =========== */
@@ -206,9 +198,9 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  height: 420px;
+  height: auto;
   width: 100%;
-  margin-top: 80px; }
+  margin: 40px 0; }
 
 #course_nested {
   display: grid;
@@ -217,7 +209,7 @@ nav {
 
 .course_nested_item {
   background-color: #e1918a;
-  height: 210px;
+  height: 100%;
   width: 100%; }
 
 .course_grid_item2 {
@@ -230,7 +222,8 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   width: 100%;
-  height: 780px; }
+  height: auto;
+  margin: 20px 0; }
 
 #team_nest1,
 #team_nest2,
@@ -270,8 +263,9 @@ nav {
 #count_up {
   width: 100%;
   margin-top: 60px;
-  height: 240px;
-  background-color: black; }
+  height: auto;
+  background-color: black;
+  padding: 20px 0; }
 
 #count_up_grid {
   display: grid;
@@ -346,10 +340,11 @@ nav {
 /* ==================== Broadcast section | End ================== */
 #details_sec {
   margin: 20px 160px;
-  height: 400px; }
+  height: auto; }
 
 #details_flexbox {
-  display: flex; }
+  display: flex;
+  flex-wrap: 780px; }
 
 .details_ul > li {
   list-style-type: disc;
@@ -629,6 +624,72 @@ button {
 
   #home_nav_prop {
     margin: 0px 30%; } }
+@media (max-width: 1024px) {
+  #grid_sec {
+    margin: 20px 60px; }
+    #grid_sec #grid_sec {
+      grid-template-columns: 1fr 1fr; }
+
+  #info_sec {
+    margin: 20px 60px; } }
+@media (max-width: 780px) {
+  #gridNav {
+    grid-template-columns: 1fr;
+    text-align: center;
+    width: 100%; }
+    #gridNav #gridLogo {
+      margin: 0;
+      text-align: left;
+      padding: 0; }
+    #gridNav #gridSearchBar {
+      text-align: center;
+      margin: 0; }
+      #gridNav #gridSearchBar form {
+        width: 100%;
+        margin: 0 !important;
+        text-align: inherit; }
+
+  #bg_image {
+    height: 480px; }
+
+  #grid_sec {
+    grid-template-columns: 1fr;
+    margin: 20px; }
+
+  #learn_to_align {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20px;
+    margin-right: 20px; }
+
+  #info_sec {
+    margin: 20px;
+    padding-bottom: 20px;
+    height: auto; }
+
+  #courses_pre {
+    margin-top: 40px;
+    padding-top: 40px; }
+
+  #course_grid {
+    grid-template-columns: 1fr; }
+
+  #meet_team {
+    margin: 20px;
+    padding: 20px;
+    height: auto; }
+
+  #team_grid {
+    grid-template-columns: 1fr;
+    margin: 20px; }
+
+  #count_up {
+    margin-top: 20px; }
+
+  #count_up_grid {
+    grid-template-columns: repeat(2, 1fr); }
+
+  #details_sec {
+    margin: 20px; } }
 #bg_image {
   width: 100%;
   background: url(../imgs/bgimage.jpg);
