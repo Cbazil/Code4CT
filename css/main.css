@@ -549,7 +549,7 @@ img {
 
  '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
 #courses_sec {
-  margin: 20px 160px; }
+  margin: 20px 250px; }
 
 #courses_grid {
   display: grid;
@@ -812,7 +812,12 @@ button {
     padding: 10px; }
 
   #map {
-    margin: 0; } }
+    margin: 0; }
+
+  #courses_sec {
+    margin: 10px; }
+    #courses_sec #courses_grid {
+      grid-template-columns: 1fr; } }
 @media (max-width: 780px) {
   #contact_grid {
     grid-template-columns: 1fr; }

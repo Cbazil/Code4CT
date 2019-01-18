@@ -218,6 +218,12 @@
     #map {
         margin: 0;
     }
+    #courses_sec {
+        margin: 10px;
+        #courses_grid {
+            grid-template-columns: 1fr;
+        }
+    }
 }
 
 // =========== CONTACT PAGE ========>
