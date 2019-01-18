@@ -184,7 +184,7 @@
 // <============= Responsiveness for home page & others with reliavent ============== 
 
 
-// CONTACTS PAGE ==================>>>>
+// ABOUT PAGE ==================>>>>
 @media (max-width: 780px){
     #statistics_grid {
         grid-template-columns: 1fr 1fr;
@@ -226,4 +226,20 @@
         margin: 0;
         padding: 10px;
     }
+    #map {
+        margin: 0;
+    }
 }
+
+// =========== CONTACT PAGE ========>
+
+@media (max-width: 780px) {
+    #contact_grid {
+        grid-template-columns: 1fr;
+    }
+    #contact_form {
+        margin: 0;
+        padding: 10px;
+    }
+}
+
