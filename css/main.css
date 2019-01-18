@@ -563,6 +563,9 @@ img {
   background-color: #666666;
   height: 300px; }
 
+#scroll_up {
+  position: absolute; }
+
 /* ============ NavBar Components | Start ============= */
 button {
   background-color: white;
