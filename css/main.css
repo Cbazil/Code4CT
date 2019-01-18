@@ -820,6 +820,16 @@ button {
   #contact_form {
     margin: 0;
     padding: 10px; } }
+@media (max-width: 790px) {
+  .port_gal_grid1,
+  .port_gal_grid2,
+  .port_gal_grid3 {
+    height: 154px; } }
+@media (max-width: 360px) {
+  .port_gal_grid1,
+  .port_gal_grid2,
+  .port_gal_grid3 {
+    height: 80px; } }
 #bg_image {
   width: 100%;
   background: url(../imgs/bgimage.jpg);
