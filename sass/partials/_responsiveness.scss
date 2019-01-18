@@ -117,6 +117,10 @@
     #footer_flex { 
         margin: 10px 10px;;
     }
+    .intro_grid_item2 {
+        height: 300px;
+        padding-top: 0;
+    }
 }
 @media (max-width: 580px){
     
@@ -163,10 +167,63 @@
     #details_sec {
         margin: 0;
     }
+    .details_item2 {
+        flex-direction: column;
+    }
     #details_flexbox {
      grid-template-columns:  100%;
     }
     #footer_flex {
         flex-direction: column;
+    }
+    .intro_grid_item2 {
+        height: 240px;
+    }
+}   
+
+// <============= Responsiveness for home page & others with reliavent ============== 
+
+
+// CONTACTS PAGE ==================>>>>
+@media (max-width: 780px){
+    #statistics_grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    #who_we_are_grid { 
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr;
+        img {
+            width: 100%;
+            height: 320px;
+        }
+    }
+    #meet_team2 {
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 580px) {
+    #intro_grid {
+        grid-template-columns: 1fr;
+        margin: 0;
+        grid-gap: 0;
+        padding: 0;
+    }
+    #who_we_are_grid{
+        img {
+            width: 100%;
+            height: 240px;
+        }
+    }
+    .intro_grid_item2 {
+        width: 100%;
+    }
+    #statistics_grid {
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 10px;
     }
 }
