@@ -53,11 +53,28 @@ h3 {
 .center_align {
   text-align: center; }
 
+ul li {
+  cursor: pointer; }
+  ul li:hover {
+    color: #e1918a; }
+  ul li:active {
+    color: #e1918a; }
+
+.fas {
+  cursor: pointer; }
+  .fas:hover {
+    color: #e1918a; }
+  .fas:active {
+    color: #e1918a; }
+
 * {
   box-sizing: border-box; }
 
 html {
   width: 100%; }
+
+main {
+  width: inherit; }
 
 /* ============ Nav Bar position | Start ============*/
 .active {
@@ -338,6 +355,13 @@ a {
 #details_sec {
   margin: 20px 160px;
   height: auto; }
+
+#details_flexbox {
+  display: grid;
+  grid-template-columns: 40% 60%; }
+
+.details_item2 {
+  display: flex; }
 
 #details_flexbox {
   flex-wrap: 780px; }
@@ -644,7 +668,7 @@ button {
 
   #grid_sec {
     grid-template-columns: 1fr;
-    margin: 20px; }
+    margin: 0; }
 
   #learn_to_align {
     grid-template-columns: repeat(2, 1fr);
@@ -656,6 +680,9 @@ button {
     padding-bottom: 20px;
     height: auto; }
 
+  #nested_grid {
+    grid-template-columns: 1fr; }
+
   #courses_pre {
     margin-top: 40px;
     padding-top: 40px; }
@@ -664,13 +691,19 @@ button {
     grid-template-columns: 1fr; }
 
   #meet_team {
-    margin: 20px;
-    padding: 20px;
+    margin: 0px;
+    padding: 0px;
     height: auto; }
 
   #team_grid {
     grid-template-columns: 1fr;
     margin: 20px; }
+
+  #subscribe_input {
+    width: 35%; }
+
+  #subscribe_button {
+    width: 20%; }
 
   #count_up {
     margin-top: 20px; }
@@ -679,7 +712,10 @@ button {
     grid-template-columns: repeat(2, 1fr); }
 
   #details_sec {
-    margin: 20px; } }
+    margin: 20px; }
+
+  #footer_flex {
+    margin: 10px 10px; } }
 @media (max-width: 580px) {
   h1 {
     font-size: 14px; }
@@ -719,7 +755,16 @@ button {
   .button {
     height: 25px;
     width: 50px;
-    font-size: 4px; } }
+    font-size: 4px; }
+
+  #details_sec {
+    margin: 0; }
+
+  #details_flexbox {
+    grid-template-columns: 100%; }
+
+  #footer_flex {
+    flex-direction: column; } }
 #bg_image {
   width: 100%;
   background: url(../imgs/bgimage.jpg);

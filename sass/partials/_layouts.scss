@@ -380,9 +380,17 @@ a {
 /* ==================== Broadcast section | End ================== */
 
 #details_sec {
- margin: 20px 160px;
- height: auto;
+
+    margin: 20px 160px;
+    height: auto;
 //  width: 100%;
+}
+#details_flexbox {
+        display: grid;
+    grid-template-columns: 40% 60%;
+}
+.details_item2 {
+    display: flex;
 }
 #details_flexbox {
     // display: flex;
@@ -401,7 +409,6 @@ a {
 footer {
     width: 100%;
     background-color: $theme_pink;
-
 }
 #footer_flex{
     margin: 20px 160px;

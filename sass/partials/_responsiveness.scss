@@ -67,7 +67,7 @@
     }
     #grid_sec {
         grid-template-columns: 1fr;
-        margin: 20px;
+        margin: 0;
     }
     #learn_to_align {
         grid-template-columns: repeat(2, 1fr);
@@ -79,6 +79,9 @@
         padding-bottom: 20px;
         height: auto;
     }
+    #nested_grid {
+        grid-template-columns: 1fr;
+    }
     #courses_pre {
         margin-top: 40px;
         padding-top: 40px;
@@ -88,13 +91,19 @@
         // padding-bottom: 20px;
     }
     #meet_team {
-        margin: 20px;
-        padding: 20px;
+        margin: 0px;
+        padding: 0px;
         height: auto;
     }
     #team_grid {
         grid-template-columns: 1fr;
         margin: 20px;
+    }
+    #subscribe_input {
+        width: 35%;
+    }
+    #subscribe_button {
+        width: 20%;
     }
     #count_up {
         margin-top: 20px;
@@ -104,6 +113,9 @@
     }
     #details_sec {
         margin: 20px;
+    }
+    #footer_flex { 
+        margin: 10px 10px;;
     }
 }
 @media (max-width: 580px){
@@ -148,5 +160,13 @@
         width: 50px;
         font-size: 4px;
     }
+    #details_sec {
+        margin: 0;
+    }
+    #details_flexbox {
+     grid-template-columns:  100%;
+    }
+    #footer_flex {
+        flex-direction: column;
+    }
 }
-

@@ -70,3 +70,23 @@ h3 {
 .center_align {
     text-align: center;
 }
+ul li {
+    cursor: pointer;
+
+    &:hover {
+        color: $theme_pink;
+    }
+    &:active {
+        color: $theme_pink;
+    }
+}
+.fas {
+    cursor: pointer;
+    
+    &:hover {
+        color: $theme_pink;
+    }
+    &:active {
+        color: $theme_pink;
+    }
+}
