@@ -601,15 +601,16 @@ position: relative;
     position: fixed;
     bottom: 50px;
     right: 20px;
-    font-size: 50px;
-    // border: $theme_white 2px solid;
-    background-color: transparent;
-    // padding: 2px; 
+    font-size: 40px;
+    border: $theme_pink 2px solid;
+    background-color: $theme_white;
+    padding: 0px 10px; 
     // border-radius: 10%;
     color: $theme_pink;
+    border-radius: 5px;
     &:hover {
         color: $theme_pink;
-        background-color: transparent;
-        // border: $theme_pink 2px solid;
+        border: $theme_pink 2px solid;
+        background-color: $theme_white;
     }
 }

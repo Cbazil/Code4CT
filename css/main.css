@@ -570,12 +570,16 @@ body {
   position: fixed;
   bottom: 50px;
   right: 20px;
-  font-size: 50px;
-  background-color: transparent;
-  color: #e1918a; }
+  font-size: 40px;
+  border: #e1918a 2px solid;
+  background-color: white;
+  padding: 0px 10px;
+  color: #e1918a;
+  border-radius: 5px; }
   #scroll_up:hover {
     color: #e1918a;
-    background-color: transparent; }
+    border: #e1918a 2px solid;
+    background-color: white; }
 
 /* ============ NavBar Components | Start ============= */
 button {
