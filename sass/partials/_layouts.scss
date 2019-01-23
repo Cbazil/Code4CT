@@ -594,7 +594,15 @@ img {
 }
 
 // =================== SCROLLUP SIDEBAR ================>
-
+body {
+position: relative;
+}
 #scroll_up {
-    position: absolute;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    font-size: 40px;
+    background: $theme_white 1px solid;
+    padding: 5px; 
+    color: $theme_pink;
 }

@@ -563,8 +563,17 @@ img {
   background-color: #666666;
   height: 300px; }
 
+body {
+  position: relative; }
+
 #scroll_up {
-  position: absolute; }
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  font-size: 40px;
+  background: white 1px solid;
+  padding: 5px;
+  color: #e1918a; }
 
 /* ============ NavBar Components | Start ============= */
 button {
