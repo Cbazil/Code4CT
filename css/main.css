@@ -552,7 +552,11 @@ img {
 #courses_sec {
   margin: 20px 250px; }
 
-#courses_grid {
+#courses_grid,
+#courses_grid2,
+#courses_grid3,
+#courses_grid4,
+#courses_grid5 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 15px;
@@ -560,11 +564,35 @@ img {
 
 .courses_grid_item {
   width: 100%;
-  background-color: #666666;
-  height: 300px; }
+  border: 5px solid #e1918a;
+  background-color: white;
+  height: 420px;
+  padding: 25px; }
+
+#addToCartButton {
+  color: white;
+  background-color: #e1918a;
+  border: none; }
 
 body {
   position: relative; }
+
+main {
+  position: relative; }
+
+#shopping_cart {
+  position: absolute;
+  padding: 20px;
+  right: 5px;
+  top: 20px;
+  width: 17%;
+  height: auto;
+  background-color: #e1918a;
+  border: #666666 2px solid; }
+  #shopping_cart .fa-shopping-cart {
+    font-size: 30px; }
+    #shopping_cart .fa-shopping-cart:hover {
+      color: black; }
 
 #scroll_up {
   position: fixed;
@@ -605,7 +633,8 @@ button {
 .button:hover {
   width: 147px; }
   .button:hover .fa-angle-right {
-    display: inline-block; }
+    display: inline-block;
+    color: white; }
 
 /* ======= Buttons Expands on hover | End ======= */
 #start_button {

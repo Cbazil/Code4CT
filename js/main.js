@@ -53,7 +53,7 @@ var timer = setInterval (function(){
 //   $('h3').addClass('animatedfadeIn');
 
 /* =========== JQuery | End =========== */
-
+// Smooth scroll up =====>>>
 const btn = document.getElementById('scroll_up');
 
 btn.addEventListener('click', () => window.scrollTo({
@@ -61,4 +61,10 @@ btn.addEventListener('click', () => window.scrollTo({
   behavior: 'smooth',
 }));
 
+// <<========================
+
+    document.getElementById('searchBar').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:yoursitename.com ' + document.getElementById('txtSearch').value;
+        return false;
+    }
 

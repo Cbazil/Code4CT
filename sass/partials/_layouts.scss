@@ -581,22 +581,53 @@ img {
 #courses_sec {
     margin: 20px 250px;
 } 
-#courses_grid {
+#courses_grid,
+#courses_grid2,
+#courses_grid3,
+#courses_grid4,
+#courses_grid5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 15px;
     grid-gap: 15px;
+
 }
 .courses_grid_item {
     width: 100%;
-    background-color: $theme_grey;
-    height: 300px; 
+    border: 5px solid $theme_pink;
+    background-color: $theme_white;
+    height: 420px; 
+    padding: 25px;
+}
+#addToCartButton {
+    color: white;
+    background-color: $theme_pink;
+    border: none;
 }
 
 // =================== SCROLLUP SIDEBAR ================>
 body {
 position: relative;
 }
+main {
+    position: relative;
+}
+#shopping_cart {
+    position: absolute;
+    padding: 20px;
+    right: 5px;
+    top: 20px;
+    width: 17%;
+    height: auto;
+    background-color: $theme_pink;
+    border: $theme_grey 2px solid;
+    .fa-shopping-cart {
+        font-size: 30px;
+        &:hover {
+            color: black;
+        }
+    }
+} 
 #scroll_up {
     position: fixed;
     bottom: 50px;
