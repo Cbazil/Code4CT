@@ -54,5 +54,11 @@ var timer = setInterval (function(){
 
 /* =========== JQuery | End =========== */
 
+const btn = document.getElementById('scroll_up');
+
+btn.addEventListener('click', () => window.scrollTo({
+  top: 10,
+  behavior: 'smooth',
+}));
 
 

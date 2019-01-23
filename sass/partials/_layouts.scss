@@ -600,9 +600,16 @@ position: relative;
 #scroll_up {
     position: fixed;
     bottom: 50px;
-    right: 10px;
-    font-size: 40px;
-    background: $theme_white 1px solid;
-    padding: 5px; 
+    right: 20px;
+    font-size: 50px;
+    // border: $theme_white 2px solid;
+    background-color: transparent;
+    // padding: 2px; 
+    // border-radius: 10%;
     color: $theme_pink;
+    &:hover {
+        color: $theme_pink;
+        background-color: transparent;
+        // border: $theme_pink 2px solid;
+    }
 }

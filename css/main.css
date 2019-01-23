@@ -569,11 +569,13 @@ body {
 #scroll_up {
   position: fixed;
   bottom: 50px;
-  right: 10px;
-  font-size: 40px;
-  background: white 1px solid;
-  padding: 5px;
+  right: 20px;
+  font-size: 50px;
+  background-color: transparent;
   color: #e1918a; }
+  #scroll_up:hover {
+    color: #e1918a;
+    background-color: transparent; }
 
 /* ============ NavBar Components | Start ============= */
 button {
