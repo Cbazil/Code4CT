@@ -566,7 +566,7 @@ img {
   width: 100%;
   border: 5px solid #e1918a;
   background-color: white;
-  height: 420px;
+  height: auto;
   padding: 25px; }
 
 #addToCartButton {
@@ -691,7 +691,10 @@ button {
       grid-template-columns: 1fr 1fr; }
 
   #info_sec {
-    margin: 20px 60px; } }
+    margin: 20px 60px; }
+
+  #courses_sec {
+    margin: 20px 120px; } }
 @media (max-width: 780px) {
   #gridNav {
     grid-template-columns: 1fr;

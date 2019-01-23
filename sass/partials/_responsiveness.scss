@@ -14,6 +14,9 @@
     #info_sec {
         margin: 20px 60px;
     }
+    #courses_sec {
+        margin: 20px 120px;
+    } 
 }
 @media (max-width: 780px){
     #gridNav {
@@ -67,6 +70,7 @@
         margin-top: 40px;
         padding-top: 40px;
     }
+
     #course_grid {
         grid-template-columns: 1fr;
         // padding-bottom: 20px;
