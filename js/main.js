@@ -63,8 +63,8 @@ btn.addEventListener('click', () => window.scrollTo({
 
 // <<========================
 
-    document.getElementById('searchBar').onsubmit = function() {
-        window.location = 'http://www.google.com/search?q=site:yoursitename.com ' + document.getElementById('txtSearch').value;
-        return false;
-    }
+    // document.getElementById('searchBar').onsubmit = function() {
+    //     window.location = 'http://www.google.com/search?q=site:yoursitename.com ' + document.getElementById('txtSearch').value;
+    //     return false;
+    // }
 
