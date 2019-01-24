@@ -888,7 +888,7 @@ button {
     height: 80px; } }
 #bg_image {
   width: 100%;
-  background: url(../imgs/bgimage.jpg);
+  background: url(../images/bgimage.jpg);
   height: 640px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -898,7 +898,7 @@ button {
 
 #description {
   width: 100%;
-  background: url(../imgs/bannerheader.png);
+  background: url(../images/bannerheader.png);
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
