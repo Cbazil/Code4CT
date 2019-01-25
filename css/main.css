@@ -457,23 +457,35 @@ textarea {
   grid-template-columns: 23% 23% 31% 23%;
   height: 275px;
   display: grid; }
+  .port_gal_grid1 img {
+    width: 100%;
+    height: 100%; }
 
 .port_gal_grid2 {
   grid-template-columns: 23% 31% 23% 23%;
   display: grid;
-  height: 275px; }
+  height: 275px !important; }
+  .port_gal_grid2 img {
+    width: 100%;
+    height: 100%; }
 
 .port_gal_grid3 {
   grid-template-columns: 23% 23% 31% 23%;
-  height: 275px;
+  height: 275px !important;
   display: grid; }
+  .port_gal_grid3 img {
+    width: 100%;
+    height: 100%; }
 
 #port_gal_grid_2, #port_gal_grid_3, #port_gal_grid_4 {
   display: none; }
 
 img {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  margin: 0;
+  border: 0;
+  display: block; }
 
 #port_slide_buttons {
   display: flex;

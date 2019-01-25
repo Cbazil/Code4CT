@@ -452,11 +452,12 @@ textarea {
 
  #portfolio_gal{
     margin-top: 80px;
+
     color: $theme_grey;
     width: 100%;
  }
  #port_gal_grid {
-     width: 100%;
+    width: 100%; 
  }
 
  .port_gal_grid1 {
@@ -464,19 +465,31 @@ textarea {
     // border: solid 2px red; Indicators
      height: 275px;     
      display: grid;  
+     img {
+        width: 100%;
+        height: 100%;
+    }
 }
  .port_gal_grid2 {
     grid-template-columns: 23% 31% 23% 23%;
     // border: solid 2px red; Indicators
     display: grid; 
-    height: 275px; 
+    height: 275px !important; 
+    img {
+        width: 100%;
+        height: 100%;
+    }
  }
 
  .port_gal_grid3 {
     grid-template-columns: 23% 23% 31% 23%;
    // border: solid 2px red; Indicators
-    height: 275px;
+    height: 275px !important;
     display: grid; 
+    img {
+        width: 100%;
+        height: 100%;
+    }
  }
  .port_gal_grid_item {
    // border: solid 2px red; Indicators
@@ -487,6 +500,9 @@ textarea {
 img {
     width: 100%;
     height: 100%;
+    margin: 0;
+    border: 0;
+    display: block;
 }
 
 #port_slide_buttons {
