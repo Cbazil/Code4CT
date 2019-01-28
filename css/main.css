@@ -562,30 +562,28 @@ img {
                 =====================================           Courses Page          ====================================
 
  '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
-#courses_sec {
-  margin: 20px 250px; }
-
-#courses_grid,
-#courses_grid2,
-#courses_grid3,
-#courses_grid4,
-#courses_grid5 {
+#course_sec_grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 15px;
-  grid-gap: 15px; }
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4em;
+  padding: 20px; }
 
-.courses_grid_item {
-  width: 100%;
-  border: 5px solid #e1918a;
-  background-color: white;
-  height: auto;
-  padding: 25px; }
+.course_Grid {
+  padding: 20px;
+  border: solid #e1918a 2px;
+  line-height: 20px; }
 
-#addToCartButton {
-  color: white;
-  background-color: #e1918a;
-  border: none; }
+.course_name {
+  font-size: 24px;
+  color: #e1918a; }
+
+.course_des {
+  font-size: 20px;
+  margin: 12px; }
+
+.course_dur, .course_price {
+  font-size: 18px;
+  margin: 12px; }
 
 body {
   position: relative; }
@@ -899,6 +897,12 @@ button {
   .port_gal_grid2,
   .port_gal_grid3 {
     height: 80px; } }
+@media (max-width: 780px) {
+  #course_sec_grid {
+    grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) {
+  #course_sec_grid {
+    grid-template-columns: 1fr; } }
 #bg_image {
   width: 100%;
   background: url(../images/bgimage.jpg);

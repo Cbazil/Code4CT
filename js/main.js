@@ -107,9 +107,9 @@ function portButton3() {
     document.getElementById("port_gal_grid_3");
     portfolio_but3.style.display = "grid";
 }
-function grid3_height() {
-    let grid_height = 
-    document.getElementsByClassName("port_gal_grid3");
-    grid_height.style.height = "275px";
-}
+// function grid3_height() {
+//     let grid_height = 
+//     document.getElementsByClassName("port_gal_grid3");
+//     grid_height.style.height = "275px";
+// }
 grid_height();

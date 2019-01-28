@@ -594,32 +594,57 @@ img {
 
  '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
 
-#courses_sec {
-    margin: 20px 250px;
-} 
-#courses_grid,
-#courses_grid2,
-#courses_grid3,
-#courses_grid4,
-#courses_grid5 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 15px;
-    grid-gap: 15px;
+// #courses_sec {
+//     margin: 20px 250px;
+// } 
+// #courses_grid,
+// #courses_grid2,
+// #courses_grid3,
+// #courses_grid4,
+// #courses_grid5 {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     margin: 15px;
+//     grid-gap: 15px;
+// }
+// .courses_grid_item {
+//     width: 100%;
+//     border: 5px solid $theme_pink;
+//     background-color: $theme_white;
+//     height: auto; 
+//     padding: 25px;
+// }
+// #addToCartButton {
+//     color: white;
+//     background-color: $theme_pink;
+//     border: none;
+// }
 
+#course_sec_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4em;
+    padding: 20px;
 }
-.courses_grid_item {
-    width: 100%;
-    border: 5px solid $theme_pink;
-    background-color: $theme_white;
-    height: auto; 
-    padding: 25px;
+.course_Grid {
+    padding: 20px;
+    border: solid $theme_pink 2px;
+    line-height: 20px; 
 }
-#addToCartButton {
-    color: white;
-    background-color: $theme_pink;
-    border: none;
+.course_name {
+    font-size: 24px;
+    color: $theme_pink;
+    
 }
+.course_des {
+    font-size: 20px;
+    margin: 12px;
+}
+.course_dur , .course_price {
+    font-size: 18px;
+    margin: 12px;
+}
+
 
 // =================== SCROLLUP SIDEBAR ================>
 body {

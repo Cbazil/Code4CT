@@ -251,3 +251,15 @@
         height: 80px;
     }
 }
+
+// Course responsiveness
+@media(max-width: 780px) {
+    #course_sec_grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width: 480px) {
+    #course_sec_grid {
+        grid-template-columns: 1fr;
+    }
+}
