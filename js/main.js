@@ -29,7 +29,7 @@ var timer = setInterval (function(){
     countOfProjects+=10;
     countOfHours+=30;
     },
-1);
+);
 
 
 // /* =========== JQuery | Start =========== */
