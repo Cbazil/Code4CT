@@ -600,6 +600,12 @@ img {
   font-size: 18px;
   margin: 12px; }
 
+.course_but {
+  background-color: #e1918a;
+  border: 2px solid #e1918a;
+  color: white;
+  border-radius: 2px; }
+
 body {
   position: relative; }
 
