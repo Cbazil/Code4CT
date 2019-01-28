@@ -465,18 +465,21 @@ textarea {
 .port_gal_grid2 {
   grid-template-columns: 23% 31% 23% 23%;
   display: grid;
-  height: 275px !important; }
+  height: 275px; }
   .port_gal_grid2 img {
     width: 100%;
     height: 100%; }
 
 .port_gal_grid3 {
   grid-template-columns: 23% 23% 31% 23%;
-  height: 275px !important;
+  height: 275px;
   display: grid; }
   .port_gal_grid3 img {
     width: 100%;
     height: 100%; }
+
+.port_gal_grid_item {
+  overflow: hidden; }
 
 #port_gal_grid_2, #port_gal_grid_3, #port_gal_grid_4 {
   display: none; }
@@ -487,6 +490,10 @@ img {
   margin: 0;
   border: 0;
   display: block; }
+  img:hover {
+    width: 110%;
+    height: 110%;
+    transition: 1.5s; }
 
 #port_slide_buttons {
   display: flex;

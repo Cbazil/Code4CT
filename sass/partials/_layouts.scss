@@ -474,7 +474,7 @@ textarea {
     grid-template-columns: 23% 31% 23% 23%;
     // border: solid 2px red; Indicators
     display: grid; 
-    height: 275px !important; 
+    height: 275px; 
     img {
         width: 100%;
         height: 100%;
@@ -484,7 +484,7 @@ textarea {
  .port_gal_grid3 {
     grid-template-columns: 23% 23% 31% 23%;
    // border: solid 2px red; Indicators
-    height: 275px !important;
+    height: 275px;
     display: grid; 
     img {
         width: 100%;
@@ -493,6 +493,8 @@ textarea {
  }
  .port_gal_grid_item {
    // border: solid 2px red; Indicators
+   overflow: hidden;
+
  }
 #port_gal_grid_2, #port_gal_grid_3, #port_gal_grid_4{
     display: none;
@@ -503,7 +505,13 @@ img {
     margin: 0;
     border: 0;
     display: block;
+    &:hover {
+        width: 110%;
+        height: 110%;
+        transition: 1.5s;
+    }
 }
+
 
 #port_slide_buttons {
     display: flex;
