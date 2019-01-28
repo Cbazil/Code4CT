@@ -80,9 +80,9 @@ function portButton1() {
     let portfolio_but3 = 
     document.getElementById("port_gal_grid_3");
     portfolio_but3.style.display = "none";
-    // let portfolio_but4 = 
-    // document.getElementById("port_gal_grid_4");
-    // portfolio_but4.style.display = "none";
+    let portfolio_but4 = 
+    document.getElementById("port_gal_grid_4");
+    portfolio_but4.style.display = "none";
 }
 function portButton2() {
     let portfolio_but1 =
@@ -94,6 +94,9 @@ function portButton2() {
     let portfolio_but3 = 
     document.getElementById("port_gal_grid_3");
     portfolio_but3.style.display = "none";
+    let portfolio_but4 = 
+    document.getElementById("port_gal_grid_4");
+    portfolio_but4.style.display = "none";
 }
 
 function portButton3() {
@@ -106,6 +109,23 @@ function portButton3() {
     let portfolio_but3 = 
     document.getElementById("port_gal_grid_3");
     portfolio_but3.style.display = "grid";
+    let portfolio_but4 = 
+    document.getElementById("port_gal_grid_4");
+    portfolio_but4.style.display = "none";
+}
+function portButton4() {
+    let portfolio_but1 =
+    document.getElementById("port_gal_grid");
+    portfolio_but1.style.display = "none";
+    let portfolio_but2 =
+    document.getElementById("port_gal_grid_2");
+    portfolio_but2.style.display = "none";
+    let portfolio_but3 = 
+    document.getElementById("port_gal_grid_3");
+    portfolio_but3.style.display = "none";
+    let portfolio_but4 = 
+    document.getElementById("port_gal_grid_4");
+    portfolio_but4.style.display = "grid";
 }
 // function grid3_height() {
 //     let grid_height = 
