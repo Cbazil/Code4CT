@@ -88,4 +88,54 @@ courses.forEach(function(course) {
 
     // Add the post div to the container for posts.
     coursesDiv.appendChild(courseDiv);
+
 });
+
+let cartDiv = document.getElementById("cart_sec");
+
+
+// Add course to cart
+let addToCart = {
+    addCourseName : "",
+    addCoursePrice : ""
+};
+
+// courses[0] = "course1";
+
+
+let courseOne = Object.create(addToCart);
+courseOne.addCourseName = courses[0].courseName;
+courseOne.addCoursePrice = courses[0].coursePrice;
+
+let courseTwo = Object.create(addToCart);
+courseTwo.addCourseName = courses[1].courseName;
+courseTwo.addCoursePrice = courses[1].coursePrice;
+
+let courseThree = Object.create(addToCart);
+courseThree.addCourseName = courses[2].courseName;
+courseThree.addCoursePrice = courses[2].coursePrice;
+
+let courseFour = Object.create(addToCart);
+courseFour.addCourseName = courses[3].courseName;
+courseFour.addCoursePrice = courses[3].coursePrice;
+
+let courseFive = Object.create(addToCart);
+courseFive.addCourseName = courses[4].courseName;
+courseFive.addCoursePrice = courses[4].coursePrice;
+
+let courseSix = Object.create(addToCart);
+courseSix.addCourseName = courses[5].courseName;
+courseSix.addCoursePrice = courses[5].coursePrice;
+
+let courseSeven = Object.create(addToCart);
+courseSeven.addCourseName = courses[6].courseName;
+courseSeven.addCoursePrice = courses[6].coursePrice;
+
+
+console.log(courseOne);
+console.log(courseTwo);
+console.log(courseThree);
+console.log(courseFour);
+console.log(courseFive);
+console.log(courseSix);
+console.log(courseSeven);
