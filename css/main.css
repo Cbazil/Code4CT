@@ -87,7 +87,7 @@ a {
 #gridNav {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 30% 40% 30%;
   margin: 0;
   padding: 5px 0;
   background-color: white;
@@ -106,12 +106,14 @@ a {
 
 #gridNav > nav {
   width: 100%;
-  height: auto; }
+  height: auto;
+  text-align: center; }
   #gridNav > nav ul {
     color: #666666;
     display: inline-block;
     width: inherit;
-    text-align: center; }
+    text-align: center;
+    margin-left: unset; }
     #gridNav > nav ul li {
       float: left;
       list-style: none;

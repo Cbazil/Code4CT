@@ -12,7 +12,7 @@ a {
 #gridNav {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 30% 40% 30% ;
     margin: 0;
     padding: 5px 0; 
     background-color: $theme_white; 
@@ -33,11 +33,13 @@ a {
 #gridNav > nav {
     width: 100%;
     height: auto;
+    text-align: center;
     ul {
         color: $theme_grey;
         display: inline-block;
         width: inherit;
         text-align: center;
+        margin-left: unset;
         li {
             float: left;
             list-style: none;
