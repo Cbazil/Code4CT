@@ -917,6 +917,11 @@ button {
   .port_gal_grid2,
   .port_gal_grid3 {
     height: 154px; } }
+@media (max-width: 540px) {
+  .port_gal_grid1,
+  .port_gal_grid2,
+  .port_gal_grid3 {
+    height: 90px; } }
 @media (max-width: 360px) {
   .port_gal_grid1,
   .port_gal_grid2,
