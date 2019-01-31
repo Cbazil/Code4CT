@@ -927,7 +927,10 @@ button {
     grid-template-columns: 1fr 1fr; }
 
   #gridNav > nav ul {
-    width: 100%; } }
+    width: 100%; }
+
+  #gridLogo {
+    height: 40px; } }
 @media (max-width: 480px) {
   #course_sec_grid {
     grid-template-columns: 1fr; }
@@ -947,7 +950,7 @@ button {
         text-align: center; } }
 @media (max-width: 390px) {
   body p, body li {
-    font-size: 12px; } }
+    font-size: 14px; } }
 #bg_image {
   width: 100%;
   background: url(../images/bgimage.jpg);

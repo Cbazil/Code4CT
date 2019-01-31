@@ -262,6 +262,9 @@
             width: 100%;
         }
     }
+    #gridLogo {
+        height: 40px;
+    }
     // #gridSearchBar { 
     //     form {
     //     width: 80%;
@@ -294,7 +297,7 @@
 @media(max-width: 390px){
     body {
         p, li {
-            font-size: 12px;
+            font-size: 14px;
         }
     }
 }
