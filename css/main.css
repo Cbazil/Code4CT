@@ -273,7 +273,8 @@ a {
 #social_icons {
   display: block;
   position: absolute;
-  bottom: 0; }
+  bottom: 0;
+  margin-top: 5px; }
 
 /* ============== Social font styling | End ============== */
 /* ========== Meet the team Grid | Start ========== */
@@ -846,8 +847,8 @@ button {
     padding: unset; }
 
   .button {
-    height: 25px;
-    width: 50px;
+    height: 40px;
+    width: 60px;
     font-size: 4px; }
 
   #details_sec {
@@ -926,7 +927,7 @@ button {
   .port_gal_grid1,
   .port_gal_grid2,
   .port_gal_grid3 {
-    height: 80px; } }
+    height: 70px; } }
 @media (max-width: 780px) {
   #course_sec_grid {
     grid-template-columns: 1fr 1fr; }
@@ -986,15 +987,15 @@ body {
 
 @media (max-width: 580px) {
   h1 {
-    font-size: 12px; }
+    font-size: 14px; }
 
   .description_p {
-    font-size: 8px; }
+    font-size: 10x; }
 
   #bg_image {
     width: inherit;
     height: 280px;
-    margin-top: 100px; }
+    margin-top: 45px; }
 
   #blank_nav {
     height: 3.5em; }
