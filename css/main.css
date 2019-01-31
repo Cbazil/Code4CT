@@ -269,6 +269,11 @@ a {
   margin: 10px;
   margin-top: -10px;
   position: relative; }
+  .team_nest1_item2 p,
+  .team_nest2_item2 p,
+  .team_nest3_item2 p,
+  .team_nest4_item2 p {
+    padding-bottom: 10px; }
 
 #social_icons {
   display: block;
@@ -847,9 +852,9 @@ button {
     padding: unset; }
 
   .button {
-    height: 40px;
-    width: 60px;
-    font-size: 4px; }
+    height: 50px;
+    width: 100px;
+    font-size: 10px; }
 
   #details_sec {
     margin: 0; }
