@@ -113,11 +113,12 @@ a {
     display: inline-block;
     width: inherit;
     text-align: center;
-    margin-left: unset; }
+    margin-left: unset;
+    width: 70%; }
     #gridNav > nav ul li {
       float: left;
       list-style: none;
-      padding-right: 20px; }
+      padding-right: 10px; }
       #gridNav > nav ul li:hover {
         color: #e1918a; }
       #gridNav > nav ul li:active {
@@ -747,7 +748,7 @@ button {
       text-align: center;
       margin: 0; }
       #gridNav #gridSearchBar form {
-        width: 100%;
+        width: 80%;
         margin: 0 !important;
         text-align: inherit; }
 
@@ -923,10 +924,30 @@ button {
     height: 80px; } }
 @media (max-width: 780px) {
   #course_sec_grid {
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; }
+
+  #gridNav > nav ul {
+    width: 100%; } }
 @media (max-width: 480px) {
   #course_sec_grid {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+
+  #gridSearchBar {
+    display: none; }
+
+  #gridNav > nav {
+    text-align: center;
+    margin-top: 10px; }
+    #gridNav > nav ul {
+      width: 90%;
+      margin: 0;
+      padding-left: unset;
+      text-align: center; }
+      #gridNav > nav ul li {
+        text-align: center; } }
+@media (max-width: 390px) {
+  body p, body li {
+    font-size: 12px; } }
 #bg_image {
   width: 100%;
   background: url(../images/bgimage.jpg);
